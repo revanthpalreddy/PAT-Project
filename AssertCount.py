@@ -78,5 +78,5 @@ def writeToCSV():
                 writer.writerow([key, module[0], fileName, value[0],value[1]])
 
 
-dirName = 'numpy-latest/numpy'
+dirName = 'numpy-production/numpy'
 
