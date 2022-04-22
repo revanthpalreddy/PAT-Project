@@ -28,7 +28,7 @@ def generateAssertCountPlots():
                                                                                        title='Assert Errors in each '
                                                                                              'Module (Total - ' + str(
                                                                                            numberOfAssertErrors) + ')')
-    plt.savefig("figures/Assert-Errors-Count", dpi=300)
+    plt.savefig("figures/Assert-Errors-Count", dpi=300 )
 
 
 generateAssertCountPlots()
