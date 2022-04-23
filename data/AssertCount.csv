@@ -1,4 +1,4 @@
-Absolute Path,Module,File Name,Assert Count,Assert Error
+Relative Path,Module,File Name,Assert Count,Assert Error
 numpy-git/numpy/distutils/tests/test_system_info.py,distutils,test_system_info.py,27,0
 numpy-git/numpy/distutils/tests/test_ccompiler_opt_conf.py,distutils,test_ccompiler_opt_conf.py,0,9
 numpy-git/numpy/distutils/tests/test_mingw32ccompiler.py,distutils,test_mingw32ccompiler.py,0,0

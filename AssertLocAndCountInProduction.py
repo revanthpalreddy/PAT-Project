@@ -39,10 +39,12 @@ def skipLines(position, linesForSkipLines):
     return numberOfLinesToBeSkippedForFromStatement
 
 
-def getAssertCountForAFile(filePath):
+def getAssertLocAndCountForAFile(filePath):
     file = open(filePath, 'r')
+    location = list()
     assertCount = 0
-    assertError = 0
+    assertDict = dict()
+    debugDict = dict()
     lines = file.readlines()
     i = 0
     while i < len(lines):
@@ -53,30 +55,33 @@ def getAssertCountForAFile(filePath):
         # Search Assert using Regex
         if re.search("^assert", lines[i]) or re.search("^\\s+assert", lines[i]):
             assertCount += 1
-        if re.search("raise AssertionError", lines[i]):
-            assertError += 1
+            location.append(i + 1)
         i += 1
-    assertCountDict[filePath] = [assertCount,assertError]
+    assertDict['assertCountAndLoc'] = [assertCount, location]
+    assertCountDict[filePath] = assertDict
 
 
-def getAssertCountForAllFiles():
+def getAssertLocAndCountForAllFiles():
     allFilesPath = getTestFiles(dirName)
     for eachFilepath in allFilesPath:
-        getAssertCountForAFile(eachFilepath)
-    return assertCountDict
+        getAssertLocAndCountForAFile(eachFilepath)
 
 
 def writeToCSV():
-    header = ['Relative Path', 'Module', 'File Name', 'Assert Count','Assert Error']
-    with open('data/AssertCount.csv', 'w') as csv_file:
+    header = ['Relative Path', 'Module', 'File Name', 'Assert Location (Line Number)', 'Assert Count']
+    with open('data/AssertLocAndCountInProduction.csv', 'w') as csv_file:
         writer = csv.writer(csv_file)
         writer.writerow(header)
         for key, value in assertCountDict.items():
             module = re.findall("^[A-Za-z-]+\/[a-z]+\/([a-z_0-9]+)", key)
             fileName = key[key.rfind("/") + 1:]
+            loactionList = value['assertCountAndLoc'][1]
+            loactionInStrFormat = ','.join(str(e) for e in loactionList)
             if not (module[0].startswith("_")):
-                writer.writerow([key, module[0], fileName, value[0],value[1]])
+                writer.writerow([key, module[0], fileName, loactionInStrFormat, value['assertCountAndLoc'][0]])
 
 
-dirName = 'numpy-git/numpy'
+dirName = 'numpy-production/numpy'
 
+getAssertLocAndCountForAllFiles()
+writeToCSV()

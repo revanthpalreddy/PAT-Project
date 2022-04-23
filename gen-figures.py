@@ -14,7 +14,7 @@ def generateAssertCountPlots():
     groupedByModuleAssertErrorData = data.groupby('Module')['Assert Error'].sum().reset_index()
     groupedByModuleTotalCountOfTestCasesData = data.groupby('Module').size()
     groupedByModuleTotalCountOfTestCasesData.plot(kind='barh', title='Test Files in each Module (Total - ' + str(
-        numberOfTestFiles) + ' )')
+        numberOfTestFiles) + ')')
     plt.savefig("figures/Test-Files-Count", dpi=300)
     groupedByModuleAssertCountData.sort_values(['Assert Count'], ascending=False).plot(kind='barh', y='Assert Count',
                                                                                        x='Module',
