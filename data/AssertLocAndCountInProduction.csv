@@ -1,4 +1,4 @@
-Absolute Path,Module,File Name,Assert Location (Line Number),Assert Count
+Relative Path,Module,File Name,Assert Location (Line Number),Assert Count
 numpy-production/numpy/distutils/tests/test_system_info.py,distutils,test_system_info.py,"193,194,195,197,202,203,204,209,210,212,214,219,220,221,233,253,267,276,284,297,298,299,304,305,310,311,312",27
 numpy-production/numpy/distutils/tests/test_ccompiler_opt_conf.py,distutils,test_ccompiler_opt_conf.py,,0
 numpy-production/numpy/distutils/tests/test_mingw32ccompiler.py,distutils,test_mingw32ccompiler.py,,0
