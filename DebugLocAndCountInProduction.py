@@ -38,7 +38,7 @@ def getDebugLocAndCountForAllFiles():
 
 
 def writeToCSV():
-    header = ['Relative Path', 'Module', 'File Name', 'Degug Location (Line Number)', 'Debug Count']
+    header = ['Relative Path', 'Module', 'File Name', 'Debug Location (Line Number)', 'Debug Count']
     with open('data/DebugLocAndCountInProduction.csv', 'w') as csv_file:
         writer = csv.writer(csv_file)
         writer.writerow(header)

@@ -2,7 +2,7 @@ import os
 import re
 import csv
 
-assertCountDict = dict()
+assertCountDictInProd = dict()
 
 
 def getListOfFiles(dirName):
@@ -57,7 +57,7 @@ def getAssertLocAndCountForAFile(filePath):
             location.append(i + 1)
         i += 1
     assertDict['assertCountAndLoc'] = [assertCount, location]
-    assertCountDict[filePath] = assertDict
+    assertCountDictInProd[filePath] = assertDict
 
 
 def getAssertLocAndCountForAllFiles():
@@ -71,7 +71,7 @@ def writeToCSV():
     with open('data/AssertLocAndCountInProduction.csv', 'w') as csv_file:
         writer = csv.writer(csv_file)
         writer.writerow(header)
-        for key, value in assertCountDict.items():
+        for key, value in assertCountDictInProd.items():
             module = re.findall("^[A-Za-z-]+\/[a-z]+\/([a-z_0-9]+)", key)
             fileName = key[key.rfind("/") + 1:]
             loactionList = value['assertCountAndLoc'][1]
@@ -81,6 +81,3 @@ def writeToCSV():
 
 
 dirName = 'numpy-production/numpy'
-
-getAssertLocAndCountForAllFiles()
-writeToCSV()
