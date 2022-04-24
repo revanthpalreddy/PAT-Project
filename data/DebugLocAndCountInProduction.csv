@@ -1,0 +1,11 @@
+Relative Path,Module,File Name,Degug Location (Line Number),Debug Count
+numpy-production/numpy/distutils/unixccompiler.py,distutils,unixccompiler.py,136,1
+numpy-production/numpy/distutils/ccompiler.py,distutils,ccompiler.py,773,1
+numpy-production/numpy/distutils/system_info.py,distutils,system_info.py,"920,3048",2
+numpy-production/numpy/distutils/exec_command.py,distutils,exec_command.py,"126,168,173,211,232,234,247",7
+numpy-production/numpy/distutils/mingw32ccompiler.py,distutils,mingw32ccompiler.py,"357,363,375,456,478",5
+numpy-production/numpy/distutils/fcompiler/__init__.py,distutils,__init__.py,"683,819,821,929,930",5
+numpy-production/numpy/distutils/command/build_ext.py,distutils,build_ext.py,"370,373",2
+numpy-production/numpy/distutils/command/build_src.py,distutils,build_src.py,"490,546,566,713",4
+numpy-production/numpy/distutils/command/build_clib.py,distutils,build_clib.py,"223,226",2
+numpy-production/numpy/testing/_private/noseclasses.py,testing,noseclasses.py,232,1

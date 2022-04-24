@@ -44,7 +44,6 @@ def getAssertLocAndCountForAFile(filePath):
     location = list()
     assertCount = 0
     assertDict = dict()
-    debugDict = dict()
     lines = file.readlines()
     i = 0
     while i < len(lines):
