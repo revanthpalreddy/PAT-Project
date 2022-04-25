@@ -1,0 +1,468 @@
+weave/tests/test_ast_tools.py, ['Eric Jones', 'Travis Oliphant', 'Pearu Peterson', 'jmiller'], 2002-01-03, 4, 8
+weave/tests/test_blitz_tools.py, ['Eric Jones', 'Travis Oliphant', 'Pearu Peterson', 'jmiller'], 2002-01-03, 4, 18
+weave/tests/test_build_tools.py, ['Eric Jones', 'Pearu Peterson'], 2002-01-03, 2, 3
+weave/tests/test_catalog.py, ['Eric Jones', 'Travis Oliphant', 'Pearu Peterson'], 2002-01-03, 3, 13
+weave/tests/test_common_spec.py, ['Eric Jones'], 2002-01-03, 1, 3
+weave/tests/test_compile_code.py, ['Eric Jones'], 2002-01-03, 1, 1
+weave/tests/test_ext_tools.py, ['Eric Jones', 'Pearu Peterson', 'jmiller'], 2002-01-03, 3, 12
+weave/tests/test_scalar_spec.py, ['Eric Jones'], 2002-01-03, 1, 7
+weave/tests/test_size_check.py, ['Eric Jones', 'Travis Oliphant', 'Pearu Peterson', 'jmiller'], 2002-01-03, 4, 11
+weave/tests/test_slice_handler.py, ['Eric Jones', 'Pearu Peterson'], 2002-01-03, 2, 6
+weave/tests/test_standard_array_spec.py, ['Eric Jones', 'Travis Oliphant', 'Pearu Peterson', 'jmiller'], 2002-01-03, 4, 11
+weave/tests/test_string_spec.py, ['Eric Jones'], 2002-01-03, 1, 3
+weave/tests/test_wx_spec.py, ['Eric Jones', 'Pearu Peterson'], 2002-01-03, 2, 5
+None, ['Eric Jones', 'Pearu Peterson', 'Travis Oliphant', 'nobody', 'cookedm', 'wfspotz@sandia.gov', 'pierregm', 'Robert Kern', 'David Cournapeau', 'rgommers', 'Nathaniel J. Smith', 'Pauli Virtanen', 'Charles Harris', 'Ralf Gommers', 'gfyoung', 'Kevin Sheppard', 'mattip', 'Tyler Reddy', 'Matti Picus', 'Warren Weckesser', 'Ryan Polley', 'Bas van Beek', 'H. Vetinari'], 2002-01-03, 23, 174
+weave/tests/test_inline_tools.py, ['Eric Jones', 'Pearu Peterson', 'jmiller'], 2002-01-14, 3, 8
+weave/tests/test_sequence_spec.py, ['Eric Jones'], 2002-01-22, 1, 3
+scipy_base/testing.py, ['Eric Jones', 'Travis Oliphant', 'Pearu Peterson'], 2002-04-01, 3, 11
+scipy_base/tests/test_function_base.py, ['Eric Jones', 'Pearu Peterson', 'Travis Oliphant', 'jmiller'], 2002-04-03, 4, 13
+scipy_base/tests/test_index_tricks.py, ['Eric Jones', 'Pearu Peterson'], 2002-04-03, 2, 6
+scipy_base/tests/test_limits.py, ['Eric Jones', 'Pearu Peterson'], 2002-04-03, 2, 4
+scipy_base/tests/test_matrix_base.py, ['Eric Jones', 'Pearu Peterson'], 2002-04-03, 2, 5
+scipy_base/tests/test_shape_base.py, ['Eric Jones', 'Pearu Peterson'], 2002-04-03, 2, 6
+scipy_base/tests/test_type_check.py, ['Eric Jones', 'Travis Oliphant', 'Pearu Peterson', 'jmiller'], 2002-04-03, 4, 8
+weave/tests/test_c_spec.py, ['Eric Jones', 'Pearu Peterson'], 2002-09-12, 2, 8
+scipy_test/testing.py, ['Eric Jones', 'Pearu Peterson', 'skip', 'Travis Oliphant', 'Travis Vaught', 'jmiller'], 2002-09-18, 6, 56
+weave/tests/test_scxx.py, ['Eric Jones', 'Pearu Peterson'], 2002-09-28, 2, 8
+weave/tests/test_scxx_dict.py, ['Eric Jones', 'Pearu Peterson'], 2002-10-10, 2, 2
+weave/tests/test_scxx_object.py, ['Eric Jones', 'Pearu Peterson'], 2002-10-10, 2, 2
+weave/tests/test_scxx_sequence.py, ['Eric Jones', 'Pearu Peterson'], 2002-10-10, 2, 2
+scipy_base/tests/test_general_function.py, ['Pearu Peterson'], 2003-09-20, 1, 1
+scipy_base/tests/test_fastumath.py, ['Pearu Peterson'], 2003-09-25, 1, 2
+scipy_distutils/tests/f2py_ext/tests/test_fib2.py, ['Pearu Peterson'], 2004-01-31, 1, 1
+scipy_distutils/tests/f2py_f90_ext/tests/test_foo.py, ['Pearu Peterson'], 2004-01-31, 1, 1
+scipy_distutils/tests/gen_ext/tests/test_fib3.py, ['Pearu Peterson'], 2004-01-31, 1, 1
+scipy_distutils/tests/swig_ext/tests/test_example.py, ['Pearu Peterson'], 2004-01-31, 1, 1
+scipy_distutils/tests/swig_ext/tests/test_example2.py, ['Pearu Peterson'], 2004-01-31, 1, 1
+test, ['joe', 'jmiller', 'Travis Oliphant'], 2005-08-12, 3, 6
+base/tests/test_fastumath.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+base/tests/test_function_base.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+base/tests/test_index_tricks.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+base/tests/test_limits.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+base/tests/test_matrix_base.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+base/tests/test_shape_base.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+base/tests/test_type_check.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+distutils/tests/f2py_ext/tests/test_fib2.py, ['Travis Oliphant'], 2005-09-14, 1, 2
+distutils/tests/f2py_f90_ext/tests/test_foo.py, ['Travis Oliphant'], 2005-09-14, 1, 2
+distutils/tests/gen_ext/tests/test_fib3.py, ['Travis Oliphant'], 2005-09-14, 1, 2
+distutils/tests/swig_ext/tests/test_example.py, ['Travis Oliphant'], 2005-09-14, 1, 2
+distutils/tests/swig_ext/tests/test_example2.py, ['Travis Oliphant'], 2005-09-14, 1, 2
+test/testing.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+base/testing.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+base/tests/test_basic.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+distutils/tests/test_build_src.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+scipy/base/testing.py, ['Travis Oliphant'], 2005-09-14, 1, 2
+scipy/base/tests/test_basic.py, ['Travis Oliphant', 'Robert Kern'], 2005-09-14, 2, 2
+scipy/base/tests/test_function_base.py, ['Travis Oliphant', 'Robert Kern', 'edschofield', 'cookedm', 'Pearu Peterson'], 2005-09-14, 5, 9
+scipy/base/tests/test_index_tricks.py, ['Travis Oliphant', 'Robert Kern', 'Pearu Peterson'], 2005-09-14, 3, 4
+scipy/base/tests/test_limits.py, ['Travis Oliphant', 'Robert Kern'], 2005-09-14, 2, 2
+scipy/base/tests/test_matrix_base.py, ['Travis Oliphant', 'Robert Kern'], 2005-09-14, 2, 2
+scipy/base/tests/test_shape_base.py, ['Travis Oliphant', 'Robert Kern', 'Pearu Peterson'], 2005-09-14, 3, 7
+scipy/base/tests/test_type_check.py, ['Travis Oliphant', 'Robert Kern', 'Pearu Peterson'], 2005-09-14, 3, 6
+scipy/distutils/tests/f2py_ext/tests/test_fib2.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+scipy/distutils/tests/f2py_f90_ext/tests/test_foo.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+scipy/distutils/tests/gen_ext/tests/test_fib3.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+scipy/distutils/tests/swig_ext/tests/test_example.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+scipy/distutils/tests/swig_ext/tests/test_example2.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+scipy/distutils/tests/test_build_src.py, ['Travis Oliphant'], 2005-09-14, 1, 1
+scipy/test/testing.py, ['Travis Oliphant', 'Robert Kern', 'Pearu Peterson', 'cookedm'], 2005-09-26, 4, 11
+scipy/weave/tests/test_ast_tools.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_blitz_tools.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_build_tools.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_c_spec.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_catalog.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_ext_tools.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_inline_tools.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_scxx.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_scxx_dict.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_scxx_object.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_scxx_sequence.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_size_check.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_slice_handler.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_standard_array_spec.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/weave/tests/test_wx_spec.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-09-26, 2, 2
+scipy/f2py2e/test-site/cb/test.f, ['Travis Oliphant'], 2005-09-27, 1, 1
+scipy/f2py2e/test-site/cf/test.f, ['Travis Oliphant'], 2005-09-27, 1, 1
+scipy/f2py2e/test-site/curtis/test.py, ['Travis Oliphant'], 2005-09-27, 1, 1
+scipy/f2py2e/test-site/mod/test.f, ['Travis Oliphant'], 2005-09-27, 1, 1
+scipy/f2py2e/test-site/simple/test_array.py, ['Travis Oliphant'], 2005-09-27, 1, 1
+scipy/f2py2e/test-site/simple/test_scalar.py, ['Travis Oliphant'], 2005-09-27, 1, 1
+scipy/f2py2e/test-site/test_f2py2e.py, ['Travis Oliphant'], 2005-09-27, 1, 1
+scipy/base/tests/test_twodim_base.py, ['Robert Kern', 'Travis Oliphant', 'Pearu Peterson'], 2005-09-29, 3, 3
+scipy/base/tests/test_matrix.py, ['Robert Kern', 'Travis Oliphant', 'edschofield', 'Pearu Peterson'], 2005-10-12, 4, 10
+scipy/base/tests/test_umath.py, ['Pearu Peterson'], 2005-10-13, 1, 2
+scipy/base/tests/test_getlimits.py, ['Pearu Peterson'], 2005-10-13, 1, 3
+scipy/basic/tests/test_helper.py, ['Pearu Peterson'], 2005-10-13, 1, 1
+scipy/distutils/tests/test_misc_util.py, ['Pearu Peterson'], 2005-10-13, 1, 6
+scipy/f2py2e/tests/array_from_pyobj/tests/test_array_from_pyobj.py, ['Pearu Peterson'], 2005-10-25, 1, 3
+scipy/f2py/tests/array_from_pyobj/tests/test_array_from_pyobj.py, ['Pearu Peterson'], 2005-10-28, 1, 1
+scipy/base/tests/test_ufunclike.py, ['cookedm', 'Pearu Peterson'], 2005-10-29, 2, 2
+scipy/base/tests/test_polynomial.py, ['cookedm', 'Pearu Peterson'], 2005-10-29, 2, 4
+scipy/base/tests/test_ma.py, ['Travis Oliphant', 'Pearu Peterson', 'sasha'], 2005-11-10, 3, 7
+scipy/base/tests/test_records.py, ['chanley', 'Pearu Peterson', 'Travis Oliphant'], 2005-12-13, 3, 8
+scipy/corefft/tests/test_helper.py, ['Travis Oliphant', 'Pearu Peterson'], 2005-12-25, 2, 3
+scipy/testing/testing.py, ['Pearu Peterson'], 2005-12-26, 1, 1
+scipy/base/tests/testdata.fits, ['chanley'], 2005-12-29, 1, 1
+numpy/base/tests/test_function_base.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_getlimits.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_index_tricks.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_ma.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_matrix.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_polynomial.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_records.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_shape_base.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_twodim_base.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_type_check.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_ufunclike.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/test_umath.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/base/tests/testdata.fits, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/corefft/tests/test_helper.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/distutils/tests/f2py_ext/tests/test_fib2.py, ['Travis Oliphant', 'cookedm', 'Stefan van der Walt', 'Alan McIntyre', 'Charles Harris'], 2006-01-04, 5, 13
+numpy/distutils/tests/f2py_f90_ext/tests/test_foo.py, ['Travis Oliphant', 'cookedm', 'Stefan van der Walt', 'Alan McIntyre', 'Charles Harris'], 2006-01-04, 5, 13
+numpy/distutils/tests/gen_ext/tests/test_fib3.py, ['Travis Oliphant', 'cookedm', 'Stefan van der Walt', 'Alan McIntyre', 'Charles Harris'], 2006-01-04, 5, 13
+numpy/distutils/tests/swig_ext/tests/test_example.py, ['Travis Oliphant', 'Pearu Peterson', 'cookedm', 'Stefan van der Walt', 'Alan McIntyre', 'Charles Harris'], 2006-01-04, 6, 14
+numpy/distutils/tests/swig_ext/tests/test_example2.py, ['Travis Oliphant', 'Pearu Peterson', 'cookedm', 'Stefan van der Walt', 'Alan McIntyre', 'Charles Harris'], 2006-01-04, 6, 12
+numpy/distutils/tests/test_misc_util.py, ['Travis Oliphant', 'Pearu Peterson', 'cookedm', 'Stefan van der Walt', 'Alan McIntyre', 'Charles Harris', 'Julian Taylor', 'Ralf Gommers', 'Sami Salonen', 'Roman Yurchak', 'Jon Dufresne'], 2006-01-04, 11, 26
+numpy/f2py/tests/array_from_pyobj/tests/test_array_from_pyobj.py, ['Travis Oliphant', 'Pearu Peterson', 'cookedm', 'Alan McIntyre'], 2006-01-04, 4, 13
+numpy/core/tests/test_function_base.py, ['Travis Oliphant', 'David Cournapeau', 'Charles Harris', 'Jonathan Helmus', 'Sankarshan Mudkavi', 'Robert Pröpper', 'Julian Taylor', 'jaimefrio', 'Bertrand', 'Marten van Kerkwijk', 'Emilien Kofman', 'Endolith', 'Erik M. Bray', 'Sebastian Berg', 'Matthew Brett', 'MSeifert04', 'Seth Troisi', 'David Zwicker', 'Jon Dufresne', 'Warren Weckesser', 'Kaspar Thommen', 'marload', 'Matti Picus'], 2006-01-04, 23, 39
+numpy/core/tests/test_getlimits.py, ['Travis Oliphant', 'David Cournapeau', 'Pauli Virtanen', 'Darren Dale', 'Mark Wiebe', 'Brent Pedersen', 'Ralf Gommers', 'Charles Harris', 'Jaime Fernandez', 'Matthew Brett', 'Allan Haldane', 'Jon Dufresne', 'Stephannie Jimenez Gacha', 'Bas van Beek'], 2006-01-04, 14, 26
+numpy/core/tests/test_index_tricks.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/core/tests/test_ma.py, ['Travis Oliphant', 'sasha', 'cookedm', 'Tim Leslie', 'Tim Hochberg', 'Stefan van der Walt'], 2006-01-04, 6, 41
+numpy/core/tests/test_matrix.py, ['Travis Oliphant'], 2006-01-04, 1, 3
+numpy/core/tests/test_polynomial.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/core/tests/test_records.py, ['Travis Oliphant', 'cookedm', 'Pearu Peterson', 'Stefan van der Walt', 'Alan McIntyre', 'Charles Harris', 'Jarrod Millman', 'pierregm', 'Pauli Virtanen', 'rgommers', 'Ralf Gommers', 'cgohlke', 'mwtoews', 'Erik M. Bray', 'Allan Haldane', 'Marten van Kerkwijk', 'Graham Markall', 'Eric Wieser', 'Frederick Lefebvre', 'luz.paz', 'Pierre Glaser', 'Paul Müller', 'Tyler Reddy', 'Roman Yurchak', 'Daniel Hrisca', 'Matti Picus', 'Jon Dufresne', 'Brian Wignall', 'Seth Troisi', 'Mike Taves', 'Sidhant Bansal', 'Sebastian Berg'], 2006-01-04, 32, 91
+numpy/core/tests/test_shape_base.py, ['Travis Oliphant', 'David Cournapeau', 'Charles Harris', 'Mark Wiebe', 'Han Genuit', 'Matthew Brett', 'Ondřej Čertík', 'Jay Bourque', 'Stephan Hoyer', 'Sebastian Berg', 'gkBCCN', 'Eric Wieser', 'ZZhaoTireless', 'Stefan Otte', 'Nico Schlömer', 'Jamie Townsend', 'Allan Haldane', 'Marten van Kerkwijk', 'Mark Harfouche', 'Roman Yurchak', 'Antony Lee', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser', 'vrakesh'], 2006-01-04, 25, 66
+numpy/core/tests/test_twodim_base.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/core/tests/test_type_check.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/core/tests/test_ufunclike.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/core/tests/test_umath.py, ['Travis Oliphant', 'cookedm', 'sasha', 'Tim Hochberg', 'Stefan van der Walt', 'Charles Harris', 'Pauli Virtanen', 'Alan McIntyre', 'Robert Kern', 'Jarrod Millman', 'David Cournapeau', 'Darren Dale', 'dhuard', 'rgommers', 'Ralf Gommers', 'Travis E. Oliphant', 'Eric Moore', 'Julian Taylor', 'Mark Wiebe', 'Blake Griffith', 'Sebastian Berg', 'jaimefrio', 'Lars Buitinck', 'Jaime Fernandez', 'Yash Mehrotra', 'Rémy Léone', 'Matthew Brett', 'Nathaniel J. Smith', 'Loïc Estève', 'Pedro Lacerda', 'Eric Wieser', 'James Cowgill', 'Warren Weckesser', 'Marten van Kerkwijk', 'Stephan Hoyer', 'Allan Haldane', 'xoviat', 'Hameer Abbasi', 'Matti Picus', 'mattip', 'Roman Yurchak', 'tlatorre', 'Tyler Reddy', 'Raghuveer Devulapalli', 'Oleksandr Pavlyk', 'Till Hoffmann', 'Jon Dufresne', 'Brian Wignall', 'mattharrigan', 'Gengxin Xie', 'Erik Welch', 'Anirudh Subramanian', 'Erfan Nariman | Veneficus', 'Sayed Adel', 'Ganesh Kathiresan', 'Mike Taves', 'rubiales', 'Stephannie Jimenez Gacha', 'DWesl', 'Alessia Marcolini', 'Developer-Ecosystem-Engineering', 'warren', 'H. Vetinari'], 2006-01-04, 63, 337
+numpy/core/tests/testdata.fits, ['Travis Oliphant', 'cookedm'], 2006-01-04, 2, 3
+numpy/dft/tests/test_helper.py, ['Travis Oliphant', 'cookedm'], 2006-01-04, 2, 4
+numpy/lib/test_shape_base.py, ['Travis Oliphant'], 2006-01-04, 1, 2
+numpy/lib/tests/test_function_base.py, ['Travis Oliphant', 'cookedm', 'Tim Leslie', 'Stefan van der Walt', 'Eric Jones', 'Charles Harris', 'dhuard', 'Jarrod Millman', 'Alan McIntyre', 'Robert Kern', 'Pauli Virtanen', 'David Cournapeau', 'pierregm', 'rgommers', 'David Warde-Farley', 'Ralf Gommers', 'Lars Buitinck', 'David Huard', 'Mark Wiebe', 'Chris Jordan-Squire', 'Per A. Brodtkorb', 'Ben Root', 'Skipper Seabold', 'Timo Kluck', 'Michael McNeil Forbes', 'Loftie Ellis', 'Travis E. Oliphant', 'Han Genuit', 'Nathaniel J. Smith', 'Sebastian Berg', 'Félix Hartmann', 'Julian Taylor', 'danieljfarrell', 'Jonathan Helmus', 'Joseph Martinot-Lagarde', 'rhewett', 'jaimefrio', 'Robert Franke', 'LeoMao', 'immerrr', 'Juan Luis Cano Rodríguez', 'saullogiovani', 'David M Fobes', 'Malik Woods', 'Elliott M Forney', 'carlkl', 'Matthew Brett', 'behzad nouri', 'tpoole', 'empeeu', 'Thomas Robitaille', 'Varun Nayyar', 'Jaime Fernandez', 'Maximilian Trescher', 'Ethan Kruse', 'lzkelley', 'gfyoung', 'Aditya Panchal', 'Joseph Fox-Rabinovitz', 'Ines Wichert', 'Allan Haldane', 'Eren Sezener', 'Denis Alevi', 'Peter Creasey', 'mattip', 'Stephan Hoyer', 'alvarosg', 'Marten van Kerkwijk', 'Eric Wieser', 'Alessandro Pietro Bardelli', 'Duke Vijitbenjaronk', 'Antony Lee', 'Ville Skyttä', 'Egor Panfilov', 'Brandon Carter', 'Nico Schlömer', 'David Freese', 'Chun-Wei Yuan', 'Junjie Bai', 'luzpaz', 'Jack Vreeken', 'Matt Harrigan', 'Tyler Reddy', 'Roman Yurchak', 'Matti Picus', 'ayir', 'MSeifert04', 'Warren Weckesser', 'Jon Dufresne', 'Seth Troisi', 'Eric Mariasis', 'Ross Barnowski', 'Tobias Pitters', 'CloseChoice', 'Alex', 'Max Kellermeier', 'Bas van Beek', 'peterbell10', 'scimax', 'Lisa Schwetlick', 'DCtheTall', 'Kevin Sheppard', 'Ankit Dwivedi', 'Mike Taves', 'warren', 'abel', 'Devin Shanahan'], 2006-01-04, 107, 335
+numpy/lib/tests/test_getlimits.py, ['Travis Oliphant', 'cookedm', 'Stefan van der Walt', 'Jarrod Millman', 'Alan McIntyre'], 2006-01-04, 5, 10
+numpy/lib/tests/test_index_tricks.py, ['Travis Oliphant', 'Pearu Peterson', 'Tim Leslie', 'cookedm', 'Stefan van der Walt', 'Alan McIntyre', 'Jarrod Millman', 'Pauli Virtanen', 'David Cournapeau', 'Mark Wiebe', 'Charles Harris', 'Chris Jordan-Squire', 'Frederic', 'Jay Bourque', 'Travis E. Oliphant', 'Sebastian Berg', 'Jaime Fernandez', 'mlai', 'gfyoung', 'Shota Kawabuchi', 'Eric Wieser', 'luz.paz', 'Marten van Kerkwijk', 'mattip', 'Tyler Reddy', 'James Bourbeau', 'psschand', 'MSeifert04', 'Jon Dufresne', 'Cameron Blocker', 'Alessia Marcolini'], 2006-01-04, 31, 84
+numpy/lib/tests/test_polynomial.py, ['Travis Oliphant', 'Tim Leslie', 'Pearu Peterson', 'cookedm', 'Stefan van der Walt', 'Jarrod Millman', 'Charles Harris', 'Alan McIntyre', 'Pauli Virtanen', 'rgommers', 'Travis E. Oliphant', 'jaimefrio', 'endolith', 'Endolith', 'Eric Wieser', 'Deepak Kumar Gouda', 'mattip', 'Krzysztof Chomski', 'Andreas Nussbaumer', 'Jon Dufresne', 'jakobjakobson13', 'Cameron Blocker', 'Bas van Beek'], 2006-01-04, 23, 51
+numpy/lib/tests/test_twodim_base.py, ['Travis Oliphant', 'Pearu Peterson', 'cookedm', 'Tim Leslie', 'Stefan van der Walt', 'Alan McIntyre', 'Jarrod Millman', 'Pauli Virtanen', 'Charles Harris', 'Ralf Gommers', 'David Huard', 'Fabian Pedregosa', 'Warren Weckesser', 'alex', 'jaimefrio', 'Julian Taylor', 'Yotam Doron', 'Åsmund Hjulstad', 'Denis Alevi', 'Sebastian Berg', 'Eric Wieser', 'Danny Hermes', 'Marten van Kerkwijk', 'Jon Dufresne', 'Jérome Eertmans'], 2006-01-04, 25, 65
+numpy/testing/test_type_check.py, ['Travis Oliphant'], 2006-01-04, 1, 1
+numpy/lib/tests/test_type_check.py, ['Travis Oliphant', 'cookedm', 'Tim Hochberg', 'Stefan van der Walt', 'Alan McIntyre', 'Charles Harris', 'Pauli Virtanen', 'chanley', 'Mark Wiebe', 'Marten van Kerkwijk', 'Michael Goerz', 'Joerg Behrmann', 'Joshua Loyal', 'gfyoung', 'Eric Wieser', 'Matheus Vieira Portela', 'kikocorreoso', 'Jon Dufresne'], 2006-01-04, 18, 48
+numpy/lib/tests/test_ufunclike.py, ['Travis Oliphant', 'Pearu Peterson', 'Tim Hochberg', 'Stefan van der Walt', 'Alan McIntyre', 'Jarrod Millman', 'David Cournapeau', 'Charles Harris', 'Darren Dale', 'rgommers', 'Eric Wieser', 'Marten van Kerkwijk', 'Joscha Reimer', 'Jon Dufresne'], 2006-01-04, 14, 40
+numpy/lib/tests/test_shape_base.py, ['Travis Oliphant', 'cookedm', 'Tim Leslie', 'Tim Hochberg', 'Stefan van der Walt', 'Jarrod Millman', 'Alan McIntyre', 'David Cournapeau', 'Charles Harris', 'Mark Wiebe', 'Julian Taylor', 'Sebastian Berg', 'Oliver Eberle', 'Dimas Abreu Dutra', 'gkBCCN', 'Ben Rowland', 'Eric Wieser', 'Marten van Kerkwijk', 'luzpaz', 'Nikita Titov', 'Tyler Reddy', 'Stephan Hoyer', 'Roman Yurchak', 'Larry Bradley', 'Warren Weckesser', 'Jon Dufresne', 'Mike Taves', 'Ganesh Kathiresan'], 2006-01-04, 28, 64
+numpy/core/tests/test_defmatrix.py, ['Travis Oliphant', 'edschofield', 'cookedm', 'Stefan van der Walt', 'Jarrod Millman', 'Charles Harris', 'aarchiba', 'Alan McIntyre', 'pierregm', 'David Cournapeau', 'Pauli Virtanen'], 2006-01-05, 11, 32
+numpy/core/tests/test_multiarray.py, ['Travis Oliphant', 'sasha', 'Pearu Peterson', 'cookedm', 'Stefan van der Walt', 'Jarrod Millman', 'Charles Harris', 'Robert Kern', 'Alan McIntyre', 'Pauli Virtanen', 'David Cournapeau', 'Mark Wiebe', 'Martin Spacek', 'Justin Peel', 'Luis Pedro Coelho', 'Matthew Brett', 'Eli Stevens', 'Ralf Gommers', 'Ben Walsh', 'Hrvoje Niksic', 'Ben Root', 'Chris Jordan-Squire', 'Warren Weckesser', 'Thouis (Ray) Jones', 'Bryan Van de Ven', 'Nathaniel J. Smith', 'Travis E. Oliphant', 'Eric Fode', 'Jay Bourque', 'cgohlke', 'Han Genuit', 'John Salvatier', 'Sebastian Berg', 'Eric Moore', 'Frederic', 'Julian Taylor', 'David Warde-Farley', 'Yury V. Zaytsev', 'Bago Amirbekian', 'Blake Griffith', 'Arink Verma', 'John Stechschulte', 'Alexander Belopolsky', 'Lev Abalkin', 'jaimefrio', 'Daniel da Silva', 'Michael Droettboom', 'Henning Dickten', 'Darsh P. Ranjan', 'hannaro', 'John Tyree', 'Jaime Fernandez', 'Allan Haldane', 'Marten van Kerkwijk', 'Antoine Pitrou', 'Sturla Molden', 'wim glenn', 'Yash Mehrotra', 'Anne Archibald', 'behzad nouri', 'Colin Jermain', 'alex', 'Evgeni Burovski', 'John Kirkham', 'gfyoung', 'Dongjoon Hyun', 'Christoph Gohlke', 'Simon Gibbons', 'Antony Lee', 'Loïc Estève', 'Erik M. Bray', 'John Zwinck', 'mattip', 'Matthias C. M. Troffaes', 'Matti Picus', 'Frederic Bastien', 'saurabh', 'Pavel Potocek', 'Alexandr Shadchin', 'Eric Wieser', 'davidjn', 'Stephan Hoyer', 'Ville Skyttä', 'Michael Lamparski', 'Stefan Winkler', 'Erik Bray', 'Han Shen', 'Unknown', 'xoviat', 'luz.paz', 'Chris Billington', 'Frederick Lefebvre', 'luzpaz', 'fivemok', 'Mike Toews', 'Elliott Sales de Andrade', 'Tyler Reddy', 'Pierre Glaser', 'kngwyu', 'Roman Yurchak', 'wtli', 'adeak', 'Michel Fruchart', 'Hameer Abbasi', 'Sergei Lebedev', 'sorenrasmussenai', 'Richard Harris', 'Guilherme Leobas', 'Qiming Sun', 'Seth Troisi', 'Zijie (ZJ) Poh', 'Nico Schlömer', 'Keewis', 'Jon Dufresne', 'Brian Wignall', 'Mike Taves', 'Ross Barnowski', 'sgasse', 'm-podhajski', 'Brandt Bucher', 'Kevin Moore', 'Anirudh Subramanian', 'Abhinav Reddy', 'Simon Gasse', 'Hugo', 'Simon Graham', 'Maia Kaplan', 'a-elhag', 'DWesl', 'Bas van Beek', 'Mateusz Sokół', 'Matthew Badin', 'Lisa', 'Marco Aurélio da Costa', 'Marco Aurelio da Costa', 'czgdp1807', 'slepton', 'Gagandeep Singh', 'Joseph R. Fox-Rabinovitz', 'Raghuveer Devulapalli', 'Sayed Adel', 'Alexandre de Siqueira'], 2006-01-06, 142, 743
+numpy/lib/tests/test_arraysetops.py, ['Robert Cimrman', 'cookedm', 'Stefan van der Walt', 'Alan McIntyre', 'Jarrod Millman', 'dhuard', 'rgommers', 'Charles Harris', 'Sebastian Berg', 'Julien Phalip', 'jaimefrio', 'CJ Carey', 'Christian Brodbeck', 'MattHarrigan', 'martinosorb', 'Eric Wieser', 'B R S Recht', 'Konrad Kapp', 'Jörg Döpfert', 'Anas Khan', 'Marten van Kerkwijk', 'Christopher', 'Tyler Reddy', 'Roman Yurchak', 'mattip', 'MSeifert04', 'Huang, Guangtai', 'Jon Dufresne', 'Huon Wilson', 'Warren Weckesser', 'stuartarchibald', 'AngelGris', 'Filip Trojan', 'Thomas J. Fan'], 2006-01-09, 34, 71
+numpy/core/tests/test_numeric.py, ['Travis Oliphant', 'sasha', 'cookedm', 'Tim Hochberg', 'Stefan van der Walt', 'Jarrod Millman', 'aarchiba', 'Robert Kern', 'Alan McIntyre', 'David Cournapeau', 'Charles Harris', 'Pauli Virtanen', 'rgommers', 'Mark Wiebe', 'Ralf Gommers', 'Joe Kington', 'Denis Laxalde', 'Nathaniel J. Smith', 'Sebastian Berg', 'Jay Bourque', 'Johannes Schönberger', 'Julian Taylor', 'Fernando Perez', 'Benjamin Root', 'Marten van Kerkwijk', 'jaimefrio', 'Sankarshan Mudkavi', 'Maniteja Nandana', 'Eric Moore', 'chebee7i', 'Jaime Fernandez', 'Holger Kohr', 'Stephan Hoyer', 'Andrew Nelson', 'gfyoung', 'Nathaniel Beaver', 'Thomas A Caswell', 'Antony Lee', 'Eric Wieser', 'mattip', 'Pim de Haan', 'Michael Seifert', 'Allan Haldane', 'Jeroen Demeyer', 'Matti Picus', 'xoviat', 'Roman Yurchak', 'Dominic Jack', 'Rishabh Chakrabarti', 'Chirag Nighut', 'Peter Andreas Entschev', 'Hunter Damron', 'Tyler Reddy', 'Alexander Blinne', 'Gary Gurlaskie', 'Warren Weckesser', 'Doug Davis', 'Jon Dufresne', 'kai-striega', 'Seth Troisi', 'Brian Wignall', 'tirthasheshpatel', 'Mike Taves', 'Zac-HD', 'Hameer Abbasi', 'Ross Barnowski', 'takanori-pskq', 'Touqir Sajed', 'Aitik Gupta', 'Stephannie Jimenez Gacha', 'DWesl', 'shubham11941140', 'warren', 'Alessia Marcolini', 'Bas van Beek'], 2006-01-17, 75, 281
+numpy/core/tests/test_numerictypes.py, ['Travis Oliphant', 'cookedm', 'Pearu Peterson', 'Stefan van der Walt', 'Jarrod Millman', 'Alan McIntyre', 'Pauli Virtanen', 'Charles Harris', 'rgommers', 'Sebastian Berg', 'Eric Wieser', 'Yannick Jadoul', 'Tyler Reddy', 'Roman Yurchak', 'mattip', 'Jon Dufresne', 'Seth Troisi', 'Matti Picus', 'Geoffrey Gunter'], 2006-02-01, 19, 57
+numpy/distutils/tests/pyrex_ext/tests/test_primes.py, ['Pearu Peterson', 'cookedm', 'Stefan van der Walt', 'Alan McIntyre', 'Charles Harris'], 2006-02-06, 5, 10
+numpy/core/tests/test_oldnumeric.py, ['Pearu Peterson', 'Tim Hochberg', 'Travis Oliphant'], 2006-02-10, 3, 3
+numpy/core/tests/test_unicode.py, ['Travis Oliphant', 'cookedm', 'Pearu Peterson', 'Alan McIntyre', 'Jarrod Millman', 'Stefan van der Walt', 'David Cournapeau', 'Pauli Virtanen', 'rgommers', 'Ondrej Certik', 'cgohlke', 'Charles Harris', 'Sebastian Berg', 'Alexandr Shadchin', 'Ronan Lamy', 'Eric Wieser', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser'], 2006-02-14, 19, 41
+numpy/doc/swig/testSeries.py, ['Travis Oliphant', 'wfspotz@sandia.gov'], 2006-03-14, 2, 8
+numpy/core/tests/test_scalarmath.py, ['Travis Oliphant', 'cookedm', 'Stefan van der Walt', 'Jarrod Millman', 'Alan McIntyre', 'David Cournapeau', 'Mark Wiebe', 'Pauli Virtanen', 'Ralf Gommers', 'Charles Harris', 'Eric Fode', 'Julian Taylor', 'Arink Verma', 'Daniel da Silva', 'Antoine Pitrou', 'Stuart Archibald', 'Sebastian Berg', 'Eric Moore', 'Jaime Fernandez', 'mattip', 'saurabh', 'Eric Wieser', 'Stephan Hoyer', 'xoviat', 'Allan Haldane', 'Mike Toews', 'Roman Yurchak', 'Andreas Schwab', 'Jon Dufresne', 'Seth Troisi', 'Anirudh Subramanian', 'DWesl', 'Bas van Beek', 'Anne Archibald', 'Stephannie Jimenez Gacha', 'Alessia Marcolini'], 2006-05-30, 36, 127
+numpy/oldnumeric/tests/test_oldnumeric.py, ['Travis Oliphant', 'Stefan van der Walt', 'Alan McIntyre', 'Robert Kern', 'Charles Harris'], 2006-06-12, 5, 10
+numpy/f2py/lib/test_parser.py, ['Pearu Peterson'], 2006-06-30, 1, 5
+tests/f2py_ext/tests/test_fib2.py, ['cookedm'], 2006-07-06, 1, 2
+tests/f2py_f90_ext/tests/test_foo.py, ['cookedm'], 2006-07-06, 1, 2
+tests/gen_ext/tests/test_fib3.py, ['cookedm'], 2006-07-06, 1, 2
+tests/pyrex_ext/tests/test_primes.py, ['cookedm'], 2006-07-06, 1, 2
+tests/swig_ext/tests/test_example.py, ['cookedm'], 2006-07-06, 1, 2
+tests/swig_ext/tests/test_example2.py, ['cookedm'], 2006-07-06, 1, 2
+tests/test_misc_util.py, ['cookedm'], 2006-07-06, 1, 2
+numpy/linalg/tests/test_linalg.py, ['cookedm', 'Travis Oliphant', 'Stefan van der Walt', 'aarchiba', 'Charles Harris', 'Alan McIntyre', 'Robert Kern', 'David Cournapeau', 'Pauli Virtanen', 'Matthew Brett', 'Ralf Gommers', 'Skipper Seabold', 'Warren Weckesser', 'Sebastian Berg', 'Julian Taylor', 'Lars Buitinck', 'Eric Moore', 'Stefan Otte', 'alex', 'RittaNarita', 'Evgeni Burovski', 'John Kirkham', 'Eric Wieser', 'CJ Carey', 'xoviat', 'Marten van Kerkwijk', 'Jeremy Chen', 'mattip', 'Elliott Sales de Andrade', 'Tyler Reddy', 'Roman Yurchak', 'MSeifert04', 'Jon Dufresne', 'Hameer Abbasi', 'Jim', 'sslivkoff', 'Jakob', 'tautaus', 'czgdp1807', 'Dimitri Papadopoulos', 'Alessia Marcolini', 'Ivan Yashchuk', 'DWesl', 'Toshiki Kataoka'], 2006-07-14, 44, 148
+numpy/core/tests/test_regression.py, ['Stefan van der Walt', 'Travis Oliphant', 'Robert Kern', 'Charles Harris', 'cookedm', 'Jarrod Millman', 'Pauli Virtanen', 'David Cournapeau', 'Christoph Weidemann', 'Alan McIntyre', 'dhuard', 'mdroe', 'rgommers', 'Mark Wiebe', 'Ralf Gommers', 'Christolph Gohlke', 'Derek Homeier', 'Bryan Van de Ven', 'Nathaniel J. Smith', 'Ronan Lamy', 'Ondřej Čertík', 'Sebastian Berg', 'Alex Ford', 'Edward Catmur', 'David Warde-Farley', 'eltjpm', 'Julian Taylor', 'Daniel da Silva', 'Jay Bourque', 'jaimefrio', 'Jaime Fernandez', 'Allan Haldane', 'Yash Mehrotra', 'mattip', 'Pierre de Buyl', 'Matti Picus', 'pelson', 'Eric Moore', 'saurabh', 'James Sanders', 'Eric Wieser', 'Tyler Reddy', 'Licht Takeuchi', 'Toshiki Kataoka', 'Roman Yurchak', 'Pierre Glaser', 'Antoine Pitrou', 'Jakub Wilk', 'Paul Ivanov', 'Max Bolingbroke', 'Jon Dufresne', 'Seth Troisi', 'Brandt Bucher', 'Anirudh Subramanian', 'vrakesh', 'Nikola Forró', 'Bas van Beek', 'Mike Taves', 'Ganesh Kathiresan', 'slepton'], 2006-07-18, 60, 460
+numpy/fft/tests/test_helper.py, ['Travis Oliphant', 'Stefan van der Walt', 'Alan McIntyre', 'Robert Kern', 'Charles Harris', 'Henry Gomersall', 'endolith', 'Lion Krischer', 'Sami Salonen', 'Gaspar Karm', 'Martin Reinecke', 'Jon Dufresne', 'Mike Taves', 'Eric Wieser'], 2006-08-04, 14, 26
+numpy/lib/tests/test_utils.py, ['Travis Oliphant', 'Pauli Virtanen', 'Stefan van der Walt', 'Charles Harris', 'Christoph Gohlke', 'Olivier Grisel', 'Stephan Hoyer', 'Tyler Reddy', 'wrwrwr', 'Jon Dufresne', 'Seth Troisi', 'Eric Larson', 'Steve Joachim', 'kumudlakara', 'Bas van Beek'], 2006-08-14, 15, 25
+numpy/tests/test_ctypeslib.py, ['Travis Oliphant', 'Stefan van der Walt', 'Jarrod Millman', 'David Cournapeau', 'Alan McIntyre', 'rgommers', 'Charles Harris', 'Sebastian Berg', 'Meet Udeshi', 'Tadeu Manoel', 'tynn', 'Eric Wieser', 'mattip', 'Anthony Sottile', 'Jon Dufresne', 'Bas van Beek'], 2006-08-14, 16, 41
+numpy/f2py/lib/parser/test_parser.py, ['Pearu Peterson', 'Stefan van der Walt', 'Alan McIntyre'], 2006-10-01, 3, 5
+numpy/f2py/lib/test_scalar_in_out.py, ['Pearu Peterson', 'Stefan van der Walt'], 2006-10-07, 2, 7
+numpy/f2py/lib/test_derived_scalar.py, ['Pearu Peterson', 'Stefan van der Walt'], 2006-10-08, 2, 4
+numpy/f2py/lib/test_scalar_function_in.py, ['Pearu Peterson', 'Stefan van der Walt'], 2006-10-11, 2, 2
+numpy/f2py/lib/test_module_scalar.py, ['Pearu Peterson'], 2006-10-11, 1, 1
+numpy/core/tests/test_errstate.py, ['Tim Hochberg', 'Travis Oliphant', 'Stefan van der Walt', 'Alan McIntyre', 'Charles Harris', 'Pauli Virtanen', 'Mark Wiebe', 'Robert Kern', 'Ralf Gommers', 'Roman Yurchak', 'Nimish Telang', 'Jon Dufresne', 'Christian Kastner'], 2006-10-12, 13, 28
+numpy/f2py/lib/test_module_module.py, ['Pearu Peterson'], 2006-10-13, 1, 3
+numpy/f2py/lib/parser/test_expressions.py, ['Pearu Peterson'], 2006-10-20, 1, 10
+numpy/f2py/lib/parser/test_statements2.py, ['Pearu Peterson'], 2006-10-30, 1, 2
+numpy/f2py/lib/parser/test_Fortran2003.py, ['Pearu Peterson', 'Stefan van der Walt', 'Alan McIntyre', 'Robert Kern'], 2006-11-01, 4, 8
+numpy/fft/tests/test_fftpack.py, ['Stefan van der Walt', 'Jarrod Millman', 'Alan McIntyre', 'Robert Kern', 'Charles Harris', 'Chris Jordan-Squire', 'Alex Stewart', 'Julian Taylor', 'Joseph Martinot-Lagarde', 'Gregory R. Lee'], 2006-11-20, 10, 22
+numpy/doc/swig/test1D.py, ['wfspotz@sandia.gov'], 2007-04-04, 1, 2
+numpy/doc/swig/test2D.py, ['wfspotz@sandia.gov'], 2007-04-04, 1, 2
+numpy/doc/swig/test3D.py, ['wfspotz@sandia.gov'], 2007-04-04, 1, 1
+numpy/doc/swig/testMatrix.py, ['wfspotz@sandia.gov'], 2007-04-05, 1, 3
+numpy/doc/swig/testTensor.py, ['wfspotz@sandia.gov'], 2007-04-05, 1, 3
+numpy/doc/swig/testVector.py, ['wfspotz@sandia.gov'], 2007-04-05, 1, 3
+numpy/doc/swig/testing.html, ['wfspotz@sandia.gov'], 2007-04-06, 1, 1
+numpy/doc/swig/testing.pdf, ['wfspotz@sandia.gov'], 2007-04-06, 1, 3
+numpy/doc/swig/testing.txt, ['wfspotz@sandia.gov'], 2007-04-06, 1, 1
+numpy/distutils/tests/test_fcompiler_gnu.py, ['cookedm', 'Stefan van der Walt', 'Alan McIntyre', 'Robert Kern', 'Charles Harris', 'mwtoews', 'Ryan Nelson', 'Ralf Gommers', 'Jonathan Helmus', 'Jon Dufresne'], 2007-04-22, 10, 18
+numpy/f2py/lib/tests/test_derived_scalar.py, ['Pearu Peterson', 'Stefan van der Walt', 'Alan McIntyre', 'Robert Kern'], 2007-05-18, 4, 5
+numpy/f2py/lib/tests/test_module_module.py, ['Pearu Peterson', 'Stefan van der Walt', 'Jarrod Millman', 'Alan McIntyre', 'Robert Kern'], 2007-05-18, 5, 6
+numpy/f2py/lib/tests/test_module_scalar.py, ['Pearu Peterson', 'Stefan van der Walt', 'Alan McIntyre', 'Robert Kern'], 2007-05-18, 4, 5
+numpy/f2py/lib/tests/test_scalar_function_in.py, ['Pearu Peterson', 'Stefan van der Walt', 'Alan McIntyre', 'Robert Kern'], 2007-05-18, 4, 5
+numpy/f2py/lib/tests/test_scalar_in_out.py, ['Pearu Peterson', 'Stefan van der Walt', 'Alan McIntyre', 'Robert Kern'], 2007-05-18, 4, 5
+numpy/random/tests/test_random.py, ['Stefan van der Walt', 'Jarrod Millman', 'Robert Kern', 'Alan McIntyre', 'dhuard', 'Charles Harris', 'Pauli Virtanen', 'Justin Peel', 'rgommers', 'Ralf Gommers', 'Chris Jordan-Squire', 'Nathaniel J. Smith', 'Sebastian Berg', 'Warren Weckesser', 'HaroldMills', 'Julian Taylor', 'Daniel da Silva', 'Masud Rahman', 'behzad nouri', 'Blake Griffith', 'Evgeni Burovski', 'gfyoung', 'Antony Lee', 'Alistair Muldal', 'Oscar Villellas', 'Marein Könings', 'Evan Limanto', 'Eric Wieser', 'Simon Gibbons', 'Kevin Sheppard', 'luz.paz', 'Mike Toews', 'mattip', 'Wenjamin Petrenko', 'Bharat123Rox', 'Jon Dufresne', 'Pan Jan', 'panpiort8', 'Nikola Forró', 'Tyler Reddy', 'warren'], 2007-08-28, 41, 118
+numpy/doc/swig/doc/testing.html, ['wfspotz@sandia.gov'], 2007-09-13, 1, 1
+numpy/doc/swig/doc/testing.pdf, ['wfspotz@sandia.gov', 'Travis Oliphant'], 2007-09-13, 2, 4
+numpy/doc/swig/doc/testing.txt, ['wfspotz@sandia.gov'], 2007-09-13, 1, 1
+numpy/doc/swig/test/testMatrix.py, ['wfspotz@sandia.gov', 'Jarrod Millman', 'Stefan van der Walt'], 2007-09-13, 3, 3
+numpy/doc/swig/test/testTensor.py, ['wfspotz@sandia.gov', 'Jarrod Millman', 'Stefan van der Walt'], 2007-09-13, 3, 3
+numpy/doc/swig/test/testVector.py, ['wfspotz@sandia.gov', 'Jarrod Millman', 'Stefan van der Walt'], 2007-09-13, 3, 3
+numpy/doc/swig/test/testArray.py, ['wfspotz@sandia.gov', 'Jarrod Millman', 'Stefan van der Walt'], 2007-11-29, 3, 3
+numpy/doc/swig/test/testFarray.py, ['wfspotz@sandia.gov', 'Jarrod Millman'], 2007-11-30, 2, 2
+numpy/core/tests/test_ufunc.py, ['Stefan van der Walt', 'Jarrod Millman', 'Charles Harris', 'Alan McIntyre', 'David Cournapeau', 'Mark Wiebe', 'Travis E. Oliphant', 'Nathaniel J. Smith', 'Jay Bourque', 'Sebastian Berg', 'Andreas Kloeckner', 'Lars Buitinck', 'Julian Taylor', 'Daniel da Silva', 'Olivier Grisel', 'jaimefrio', 'Jaime Fernandez', 'Blake Griffith', 'Pauli Virtanen', 'Eric Wieser', 'Marten van Kerkwijk', 'Joshua Leahy', 'luz.paz', 'Hameer Abbasi', 'mattip', 'Matti Picus', 'Pierre Glaser', 'Christopher Whelan', 'Raghuveer Devulapalli', 'kai-striega', 'Oleksandr Pavlyk', 'Ralf Gommers', 'Jon Dufresne', 'Warren Weckesser', 'Brian Wignall', 'Sayed Adel', 'Stephannie Jimenez Gacha', 'Ankit Dwivedi'], 2007-12-04, 38, 216
+numpy/core/ma/tests/test_core.py, ['Stefan van der Walt'], 2007-12-15, 1, 1
+numpy/core/ma/tests/test_extras.py, ['Stefan van der Walt'], 2007-12-15, 1, 1
+numpy/core/ma/tests/test_morestats.py, ['Stefan van der Walt'], 2007-12-15, 1, 1
+numpy/core/ma/tests/test_mrecords.py, ['Stefan van der Walt'], 2007-12-15, 1, 1
+numpy/core/ma/tests/test_mstats.py, ['Stefan van der Walt'], 2007-12-15, 1, 1
+numpy/core/ma/tests/test_subclassing.py, ['Stefan van der Walt'], 2007-12-15, 1, 1
+numpy/core/ma/testutils.py, ['Stefan van der Walt'], 2007-12-15, 1, 1
+numpy/ma/tests/test_core.py, ['Stefan van der Walt', 'pierregm', 'aarchiba', 'Jarrod Millman', 'Alan McIntyre', 'Robert Kern', 'David Cournapeau', 'Travis Oliphant', 'Pauli Virtanen', 'Charles Harris', 'Mark Wiebe', 'rgommers', 'Eric Firing', 'Robert Kende', 'Thomas Robitaille', 'Ondřej Čertík', 'jamestwebber', 'Marten van Kerkwijk', 'Lev Abalkin', 'Janani', 'Sebastian Berg', 'Tim Burgess', 'Nathaniel J. Smith', 'Garrett-R', 'Gerrit Holl', 'John Kirkham', 'Alexander Belopolsky', 'Allan Haldane', 'Jonathan Helmus', 'Simon Conseil', 'Christoph Gohlke', 'gfyoung', 'Dongjoon Hyun', 'Eric Wieser', 'Michael Seifert', 'Raghav RV', 'Shota Kawabuchi', 'Ville Skyttä', 'David Schaefer', 'xoviat', 'Stefan Winkler', 'Keno Goertz', 'Lakshay Garg', 'Marten H. van Kerkwijk', 'Kritika Jalan', 'mattip', 'Roman Yurchak', 'Pierre Glaser', 'MSeifert04', 'Ralf Gommers', 'Jon Dufresne', 'Seth Troisi', 'Matti Picus', 'Warren Weckesser', 'Rakesh Vasudevan', 'Takanori H', 'Hugo', 'jakobjakobson13', 'Constanza', 'Ganesh Kathiresan', 'Dimitri Papadopoulos', 'Arun', 'serge-sans-paille'], 2007-12-15, 63, 339
+numpy/ma/tests/test_extras.py, ['Stefan van der Walt', 'pierregm', 'Jarrod Millman', 'Alan McIntyre', 'Robert Cimrman', 'Charles Harris', 'Julien Phalip', 'Warren Weckesser', 'Marten van Kerkwijk', 'Albert', 'Lev Abalkin', 'Julian Taylor', 'Simon Gibbons', 'Matthew Brett', 'Daniel da Silva', 'Christian Brodbeck', 'Jonathan Helmus', 'Stephan Hoyer', 'Allan Haldane', 'Amit Aronovitch', 'Shota Kawabuchi', 'Joseph Fox-Rabinovitz', 'Sebastian Berg', 'Loïc Estève', 'Eric Wieser', 'B R S Recht', 'lzkelley', 'Anas Khan', 'Roman Yurchak', 'mattip', 'MSeifert04', 'Jon Dufresne', 'RenaRuirui', 'Laura Martens', 'Ivan Gonzalez'], 2007-12-15, 35, 94
+numpy/ma/tests/test_morestats.py, ['Stefan van der Walt'], 2007-12-15, 1, 1
+numpy/ma/tests/test_mrecords.py, ['Stefan van der Walt', 'pierregm', 'Jarrod Millman', 'Alan McIntyre', 'Robert Kern', 'Charles Harris', 'Pauli Virtanen', 'Mark Wiebe', 'Michael Droettboom', 'Marten van Kerkwijk', 'Dongjoon Hyun', 'Sebastian Berg', 'Eric Wieser', 'Pierre Glaser', 'Roman Yurchak', 'Jon Dufresne', 'Dimitri Papadopoulos'], 2007-12-15, 17, 60
+numpy/ma/tests/test_mstats.py, ['Stefan van der Walt', 'pierregm'], 2007-12-15, 2, 3
+numpy/ma/tests/test_subclassing.py, ['Stefan van der Walt', 'pierregm', 'Alan McIntyre', 'Jarrod Millman', 'Charles Harris', 'rgommers', 'Julian Taylor', 'Marten van Kerkwijk', 'saurabh', 'Eric Wieser', 'Alex Watt', 'Jon Dufresne', 'Mike Taves', 'jakobjakobson13', 'Greg Lucas'], 2007-12-15, 15, 40
+numpy/ma/testutils.py, ['Stefan van der Walt', 'Jarrod Millman', 'pierregm', 'Alan McIntyre', 'mdroe', 'Mark Wiebe', 'Charles Harris', 'Stephan Hoyer', 'Sebastian Berg', 'xoviat', 'Jon Dufresne', 'jakobjakobson13'], 2007-12-15, 12, 35
+numpy/ma/tests/test_old_ma.py, ['Stefan van der Walt', 'pierregm', 'Charles Harris', 'Alan McIntyre', 'Jarrod Millman', 'Pauli Virtanen', 'Mark Wiebe', 'Julian Taylor', 'Marten van Kerkwijk', 'gfyoung', 'Dongjoon Hyun', 'Sebastian Berg', 'John Kirkham', 'Eric Wieser', 'Marten H. van Kerkwijk', 'Pierre Glaser', 'Roman Yurchak', 'MSeifert04', 'Jon Dufresne', 'jakobjakobson13', 'ImenRajhi', 'iameskild', 'Clément Robert'], 2007-12-15, 23, 56
+tests/test_arraysetops.py, ['Travis Oliphant'], 2007-12-15, 1, 2
+tests/test_function_base.py, ['Travis Oliphant'], 2007-12-15, 1, 1
+tests/test_getlimits.py, ['Travis Oliphant'], 2007-12-15, 1, 2
+tests/test_index_tricks.py, ['Travis Oliphant'], 2007-12-15, 1, 1
+tests/test_polynomial.py, ['Travis Oliphant'], 2007-12-15, 1, 2
+tests/test_shape_base.py, ['Travis Oliphant'], 2007-12-15, 1, 1
+tests/test_twodim_base.py, ['Travis Oliphant'], 2007-12-15, 1, 1
+tests/test_type_check.py, ['Travis Oliphant'], 2007-12-15, 1, 1
+tests/test_ufunclike.py, ['Travis Oliphant'], 2007-12-15, 1, 1
+tests/test_format.py, ['Robert Kern'], 2007-12-16, 1, 2
+numpy/lib/tests/test_format.py, ['Travis Oliphant', 'Jarrod Millman', 'Alan McIntyre', 'David Cournapeau', 'Paul Ivanov', 'Pauli Virtanen', 'rgommers', 'Charles Harris', 'Mark Wiebe', 'Julian Taylor', 'Luke Carmichael', 'Max Sperlich', 'Matthew Brett', 'Blake Griffith', 'Evgeni Burovski', 'gfyoung', 'drasmuss', 'Ralf Gommers', 'Alexandr Shadchin', 'Eric Wieser', 'John Zwinck', 'xoviat', 'mattip', 'Roman Yurchak', 'Tyler Reddy', 'Matti Picus', 'Jon Dufresne', 'Seth Troisi', 'Sha Liu', 'Mike Taves', 'Alessia Marcolini'], 2008-01-02, 31, 75
+test.sh, ['David Cournapeau'], 2008-01-18, 1, 1
+numpy/lib/tests/test__datasource.py, ['chris.burns', 'Robert Kern', 'Pauli Virtanen', 'Jarrod Millman', 'Alan McIntyre', 'rgommers', 'Charles Harris', 'Evgeni Burovski', 'Eric Wieser', 'Elliott Sales de Andrade', 'Tyler Reddy', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser', 'Mike Taves'], 2008-02-12, 15, 38
+numpy/core/tests/test_memmap.py, ['chris.burns', 'Stefan van der Walt', 'Alan McIntyre', 'Jarrod Millman', 'Matthew Brett', 'Pauli Virtanen', 'Charles Harris', 'rgommers', 'Mark Wiebe', 'Sveinung Gundersen', 'Travis E. Oliphant', 'Ondřej Čertík', 'GaelVaroquaux', 'Julian Taylor', 'Loïc Estève', 'Wendell Smith', 'Sebastian Berg', 'Ronan Lamy', 'Eric Wieser', 'mattip', 'Tyler Reddy', 'Jon Dufresne', 'Seth Troisi', 'Lisa'], 2008-02-21, 24, 49
+numpy/lib/tests/test_regression.py, ['David Cournapeau', 'Jarrod Millman', 'Alan McIntyre', 'Charles Harris', 'Pauli Virtanen', 'dhuard', 'rgommers', 'Mark Wiebe', 'Chris Jordan-Squire', 'Skipper Seabold', 'Joseph Martinot-Lagarde', 'gfyoung', 'Eric Wieser', 'MSeifert04', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser', 'Sebastian Berg', 'Alessia Marcolini'], 2008-03-21, 19, 57
+numpy/linalg/tests/test_regression.py, ['David Cournapeau', 'Jarrod Millman', 'Charles Harris', 'Alan McIntyre', 'Robert Kern', 'Pauli Virtanen', 'Sebastian Berg', 'alex', 'Matthias Geier', 'Marten van Kerkwijk', 'mattip', 'Jon Dufresne', 'Jim'], 2008-03-21, 13, 31
+numpy/lib/tests/test_io.py, ['dhuard', 'Robert Kern', 'Stefan van der Walt', 'Jarrod Millman', 'Alan McIntyre', 'Charles Harris', 'David Cournapeau', 'pierregm', 'Travis Oliphant', 'Pauli Virtanen', 'Mark Wiebe', 'Matthew Brett', 'Christoph Gohlke', 'Ralf Gommers', 'Derek Homeir', 'Derek Homeier', 'Ben Walsh', 'Paul Anton Letnes', 'Chris Jordan-Squire', 'Yaroslav Halchenko', 'martingoodson', 'cgohlke', 'Bartosz Telenczuk', 'Daniel', 'Warren Weckesser', 'Olivier Grisel', 'Julian Taylor', 'Yaron de Leeuw', 'Daniel da Silva', 'Wendell Smith', 'styr', 'Alan Briolat', 'Thomas Robitaille', 'Joseph Martinot-Lagarde', 'Nathaniel J. Smith', 'Sebastian Berg', 'I--P', 'mattip', 'Matthias C. M. Troffaes', 'gfyoung', 'Alexandr Shadchin', 'Eric Wieser', 'Allan Haldane', 'Nelle Varoquaux', 'luz.paz', 'Mathieu Sornay', 'xoviat', 'Raunak Shah', 'Nicholas Nadeau, P.Eng., AVS', 'Elliott Sales de Andrade', 'Roman Yurchak', 'Matti Picus', 'Tyler Reddy', 'mfkasim91', 'Paul Müller', 'kritisingh1', 'Paul Ivanov', 'Luis Pedro Coelho', 'Maxwell Aladago', 'Jon Dufresne', 'Seth Troisi', 'Anirudh Subramanian', 'Antonio Larrosa', 'Andrew Eckart', 'Antony Lee', 'Ross Barnowski', 'Bas van Beek', 'warren', 'André Elimelek de Weber', 'Ivan Gonzalez'], 2008-04-03, 70, 247
+numpy/lib/tests/test_financial.py, ['Travis Oliphant', 'Alan McIntyre', 'Jarrod Millman', 'Charles Harris', 'David Cournapeau', 'tim cera', 'Tim Cera', 'bebert218', 'Philip Eliot', 'Fei Liu', 'Simon Gibbons', 'Garry Polley', 'kai-striega', 'Warren Weckesser', 'Jon Dufresne'], 2008-04-04, 15, 36
+numpy/testing/tests/test_utils.py, ['David Cournapeau', 'Robert Kern', 'Alan McIntyre', 'Charles Harris', 'Pauli Virtanen', 'Mark Wiebe', 'rgommers', 'Nathaniel J. Smith', 'Sebastian Berg', 'Yoshiki Vázquez Baeza', 'Patrick Peglar', 'Julian Taylor', 'Ryan Nelson', 'Matthew Brett', 'Stephan Hoyer', 'Antony Lee', 'Antti Kaihola', 'Josh Wilson', 'Jonathan Tammo Siebert', 'Marten van Kerkwijk', 'Eric Wieser', 'xoviat', 'Allan Haldane', 'Aaron Critchley', 'Sho Nakamura', 'mattip', 'Roman Yurchak', 'Tyler Reddy', 'wtli@Dirac', 'Tim Hoffmann', 'CakeWithSteak', 'Maxwell Aladago', 'Nico Schlömer', 'Jon Dufresne', 'Seth Troisi', 'Mike Taves', 'Hugo', 'Simon Surland Andersen'], 2008-04-07, 38, 119
+numpy/lib/tests/test_machar.py, ['David Cournapeau', 'Stefan van der Walt', 'Alan McIntyre'], 2008-04-29, 3, 4
+tools/win32build/cpuid/test.c, ['David Cournapeau'], 2008-05-26, 1, 1
+numpy/lib/tests/test_stride_tricks.py, ['Robert Kern', 'Alan McIntyre', 'Charles Harris', 'Mark Wiebe', 'Jay Bourque', 'Marten van Kerkwijk', 'Stephan Hoyer', 'jaimefrio', 'Sebastian Berg', 'Eric Wieser', 'Ville Skyttä', 'Antoine Pitrou', 'Tyler Reddy', 'Matti Picus', 'Jon Dufresne', 'madhulikajc', 'Klaus Zimmermann'], 2008-07-03, 17, 33
+numpy/core/tests/test_defchararray.py, ['Alan McIntyre', 'Jarrod Millman', 'David Cournapeau', 'mdroe', 'Pauli Virtanen', 'Charles Harris', 'Ralf Gommers', 'Julian Taylor', 'Sebastian Berg', 'Erik M. Bray', 'Eric Wieser', 'Roman Yurchak', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser', 'Bas van Beek'], 2008-07-10, 16, 41
+numpy/core/tests/test_print.py, ['Charles Harris', 'David Cournapeau', 'Pauli Virtanen', 'chanley', 'Mark Wiebe', 'Evgeni Burovski', 'Alexandr Shadchin', 'Eric Wieser', 'Allan Haldane', 'xoviat', 'mattip', 'Elliott Sales de Andrade', 'Tyler Reddy', 'Jon Dufresne', 'Seth Troisi'], 2008-07-12, 15, 63
+numpy/core/tests/test_blasdot.py, ['David Cournapeau', 'Pauli Virtanen', 'Luis Pedro Coelho', 'Nicolas Scheffer', 'Charles Harris', 'Warren Weckesser', 'Blake Griffith', 'Julian Taylor'], 2008-08-04, 8, 17
+numpy/doc/swig/test/testFortran.py, ['Stefan van der Walt'], 2008-08-12, 1, 1
+numpy/lib/tests/test_arrayterator.py, ['Stefan van der Walt', 'Travis Oliphant', 'Pauli Virtanen', 'Charles Harris', 'Jon Dufresne'], 2008-08-13, 5, 10
+doc/swig/doc/testing.html, ['Stefan van der Walt'], 2008-08-23, 1, 1
+doc/swig/doc/testing.pdf, ['Stefan van der Walt', 'rgommers'], 2008-08-23, 2, 2
+doc/swig/doc/testing.txt, ['Stefan van der Walt'], 2008-08-23, 1, 1
+doc/swig/test/testArray.py, ['Stefan van der Walt', 'Charles Harris', 'Egor Zindy'], 2008-08-23, 3, 6
+doc/swig/test/testFarray.py, ['Stefan van der Walt', 'Charles Harris'], 2008-08-23, 2, 5
+doc/swig/test/testFortran.py, ['Stefan van der Walt', 'Charles Harris', 'Bill Spotz'], 2008-08-23, 3, 6
+doc/swig/test/testMatrix.py, ['Stefan van der Walt', 'Charles Harris'], 2008-08-23, 2, 5
+doc/swig/test/testTensor.py, ['Stefan van der Walt', 'Charles Harris'], 2008-08-23, 2, 5
+doc/swig/test/testVector.py, ['Stefan van der Walt', 'Charles Harris'], 2008-08-23, 2, 5
+numpy/linalg/tests/test_build.py, ['David Cournapeau', 'Pauli Virtanen', 'Charles Harris', 'Julian Taylor', 'Eric Wieser', 'Jon Dufresne', 'Jakob', 'tautaus'], 2008-11-08, 8, 22
+doc/sphinxext/tests/test_docscrape.py, ['Pauli Virtanen', 'endolith'], 2008-11-30, 2, 6
+numpy/lib/tests/test__iotools.py, ['pierregm', 'Charles Harris', 'Pauli Virtanen', 'Garrett-R', 'Thomas Robitaille', 'Eric Wieser', 'Julian Taylor', 'Allan Haldane', 'Roman Yurchak', 'Sebastian Berg', 'Jon Dufresne'], 2009-01-19, 11, 41
+numpy/lib/tests/test_recfunctions.py, ['pierregm', 'David Cournapeau', 'Pauli Virtanen', 'Charles Harris', 'Mark Wiebe', 'Skipper Seabold', 'Allan Haldane', 'Eric Wieser', 'Roman Yurchak', 'Colin Snyder', 'Warren Weckesser', 'Jon Dufresne'], 2009-01-22, 12, 50
+numpy/testing/tests/test_decorators.py, ['Alan McIntyre', 'Ralf Gommers', 'Charles Harris', 'Evgeni Burovski', 'Sebastian Berg', 'Ville Skyttä', 'mattip', 'Roman Yurchak', 'Jon Dufresne', 'Mike Taves'], 2009-02-05, 10, 23
+numpy/core/tests/test_dtype.py, ['David Cournapeau', 'Travis Oliphant', 'Charles Harris', 'Robert Kern', 'Mark Wiebe', 'Pauli Virtanen', 'cgohlke', 'Jay Bourque', 'Nathaniel J. Smith', 'Sebastian Berg', 'Daniel da Silva', 'Sankarshan Mudkavi', 'Mike Kelly', 'Julian Taylor', 'Blake Griffith', 'Antoine Pitrou', 'Jaime Fernandez', 'Erik M. Bray', 'Allan Haldane', 'Jim Crist', 'Eric Wieser', 'Simon Gibbons', 'Ihor Melnyk', 'mattip', 'Pierre Glaser', 'Mircea Akos Bruma', 'Mircea-Akos Brumă', 'Roman Yurchak', 'kirienko', 'Antony Lee', 'luzpaz', 'Steve Stagg', 'Brian Wignall', 'Jon Dufresne', 'Seth Troisi', 'Josh Wilson', 'Ganesh Kathiresan', 'slepton', 'NectDz', 'Bas van Beek', 'Alessia Marcolini', 'warren', 'Geoffrey Gunter'], 2009-03-16, 43, 141
+numpy/distutils/tests/test_npy_pkg_config.py, ['David Cournapeau', 'Pauli Virtanen', 'Charles Harris', 'Daniel da Silva', 'Jon Dufresne'], 2009-07-26, 5, 16
+numpy/core/src/multiarray/testcalcs.py, ['Travis Oliphant', 'Charles Harris'], 2009-08-26, 2, 8
+numpy/matrx/tests/test_defmatrix.py, ['David Cournapeau'], 2009-09-16, 1, 1
+numpy/matrx/tests/test_numeric.py, ['David Cournapeau'], 2009-09-16, 1, 1
+numpy/matrx/tests/test_multiarray.py, ['David Cournapeau'], 2009-09-16, 1, 1
+numpy/ma/tests/test_regression.py, ['David Cournapeau', 'mdroe', 'Charles Harris', 'Thomas Robitaille', 'Sebastian Berg', 'Marten van Kerkwijk', 'Matthew Brett', 'Eric Wieser', 'Marten H. van Kerkwijk', 'Roman Yurchak', 'Peter Bell', 'Jon Dufresne'], 2009-09-16, 12, 26
+numpy/matrx/tests/test_regression.py, ['David Cournapeau'], 2009-09-16, 1, 2
+numpy/core/tests/test_machar.py, ['David Cournapeau', 'Charles Harris', 'Dongjoon Hyun', 'Nico Schlömer', 'Jon Dufresne', 'Bas van Beek'], 2009-09-16, 6, 14
+numpy/oldnumeric/tests/test_regression.py, ['David Cournapeau', 'Charles Harris'], 2009-09-16, 2, 6
+numpy/matrixlib/tests/test_defmatrix.py, ['David Cournapeau', 'Pauli Virtanen', 'Mark Wiebe', 'Charles Harris', 'Leon Weber', 'Julian Taylor', 'alex', 'Garrett-R', 'Jaime Fernandez', 'Zè Vinícius', 'Eric Wieser', 'Frederick Lefebvre', 'luz.paz', 'Marten van Kerkwijk', 'Roman Yurchak', 'Jon Dufresne', 'Mike Taves'], 2009-09-18, 17, 35
+numpy/matrixlib/tests/test_multiarray.py, ['David Cournapeau', 'Charles Harris', 'Julian Taylor', 'Marten van Kerkwijk', 'Roman Yurchak', 'Jon Dufresne'], 2009-09-18, 6, 15
+numpy/matrixlib/tests/test_numeric.py, ['David Cournapeau', 'Charles Harris', 'Julian Taylor', 'Garrett-R', 'Marten van Kerkwijk', 'Roman Yurchak', 'Jon Dufresne'], 2009-09-18, 7, 15
+numpy/matrixlib/tests/test_regression.py, ['David Cournapeau', 'Charles Harris', 'Julian Taylor', 'Jaime Fernandez', 'Marten van Kerkwijk', 'Roman Yurchak', 'Jon Dufresne'], 2009-09-18, 7, 19
+numpy/core/tests/test_umath_complex.py, ['David Cournapeau', 'Pauli Virtanen', 'Charles Harris', 'rgommers', 'Rui Pereira', 'Ralf Gommers', 'Eric Wieser', 'xoviat', 'mattip', 'Jon Dufresne', 'Raghuveer Devulapalli', 'Mike Taves', 'Bas van Beek'], 2009-11-04, 13, 51
+numpy/polynomial/tests/test_chebyshev.py, ['Charles Harris', 'Pauli Virtanen', 'Nathaniel J. Smith', 'Jonathan Underwood', 'Dongjoon Hyun', 'Lukas Mericle', 'Jeffrey Yancey', 'Eric Wieser', 'Jon Dufresne', 'Anton Ritter-Gogerly'], 2009-11-14, 10, 48
+numpy/polynomial/tests/test_polynomial.py, ['Charles Harris', 'Pauli Virtanen', 'Nathaniel J. Smith', 'Jonathan Underwood', 'Dongjoon Hyun', 'e-q', 'Jeffrey Yancey', 'Joachim Hereth', 'Eric Wieser', 'patto90', 'Jon Dufresne', 'Matti Picus', 'Anton Ritter-Gogerly', 'jbCodeHub'], 2009-11-14, 14, 48
+numpy/polynomial/tests/test_polyutils.py, ['Charles Harris', 'Pauli Virtanen', 'Marten van Kerkwijk', 'Jon Dufresne', 'jbCodeHub'], 2009-11-14, 5, 14
+numpy/core/tests/test_datetime.py, ['Travis Oliphant', 'Charles Harris', 'Stefan van der Walt', 'Pauli Virtanen', 'Simon Blyth', 'Mark Wiebe', 'Derek Homeier', 'Ben Walsh', 'Steve R. Hastings', 'Ralf Gommers', 'Thouis (Ray) Jones', 'Jay Bourque', 'Charles G Waldman', 'Julian Taylor', 'Jaime Fernandez', 'Antoine Pitrou', 'Stephan Hoyer', '=', 'Sebastian Berg', 'Eric Wieser', 'Keno Goertz', 'Orestis Floros', 'Matti Picus', 'mattip', 'Tyler Reddy', 'Pierre Glaser', 'Debsankha Manik', 'Siddhesh Poyarekar', 'Zijie (ZJ) Poh', 'Tirth Patel', 'Jon Dufresne', 'Anirudh Subramanian', 'Veniamin Petrenko', 'shubham11941140', 'drosin'], 2009-11-20, 35, 159
+numpy/f2py/tests/test_array_from_pyobj.py, ['Pauli Virtanen', 'Pearu Peterson', 'Charles Harris', 'Julian Taylor', 'Evgeni Burovski', 'Matti Picus', 'Eric Wieser', 'Elliott Sales de Andrade', 'Tyler Reddy', 'mattip', 'Jon Dufresne', 'Sebastian Berg', 'Olivier Grisel', 'Rohit Goswami'], 2010-03-06, 14, 41
+numpy/f2py/tests/test_callback.py, ['Pauli Virtanen', 'David Cournapeau', 'Pearu Peterson', 'Charles Harris', 'xoviat', 'Elliott Sales de Andrade', 'Eric Wieser', 'Jon Dufresne', 'Matti Picus', 'Rohit Goswami', 'Alessia Marcolini'], 2010-03-06, 11, 40
+numpy/f2py/tests/test_mixed.py, ['Pauli Virtanen', 'David Cournapeau', 'Pearu Peterson', 'Charles Harris', 'Eric Wieser', 'Jon Dufresne', 'Matti Picus', 'Rohit Goswami'], 2010-03-06, 8, 20
+numpy/f2py/tests/test_return_character.py, ['Pauli Virtanen', 'David Cournapeau', 'Pearu Peterson', 'Charles Harris', 'Eric Wieser', 'Elliott Sales de Andrade', 'Jon Dufresne', 'Matti Picus', 'Ralf Gommers', 'Dimitri Papadopoulos', 'Rohit Goswami'], 2010-03-06, 11, 24
+numpy/f2py/tests/test_return_complex.py, ['Pauli Virtanen', 'David Cournapeau', 'Pearu Peterson', 'Charles Harris', 'Elliott Sales de Andrade', 'Jon Dufresne', 'Matti Picus', 'Eric Wieser', 'Rohit Goswami'], 2010-03-06, 9, 21
+numpy/f2py/tests/test_return_integer.py, ['Pauli Virtanen', 'David Cournapeau', 'Pearu Peterson', 'Charles Harris', 'Elliott Sales de Andrade', 'Jon Dufresne', 'Matti Picus', 'Eric Wieser', 'Rohit Goswami'], 2010-03-06, 9, 21
+numpy/f2py/tests/test_return_logical.py, ['Pauli Virtanen', 'David Cournapeau', 'Pearu Peterson', 'Charles Harris', 'Elliott Sales de Andrade', 'Jon Dufresne', 'Eric Wieser', 'Rohit Goswami'], 2010-03-06, 8, 20
+numpy/f2py/tests/test_return_real.py, ['Pauli Virtanen', 'David Cournapeau', 'Pearu Peterson', 'Charles Harris', 'Elliott Sales de Andrade', 'Jon Dufresne', 'Matti Picus', 'Eric Wieser', 'Rohit Goswami'], 2010-03-06, 9, 22
+numpy/core/tests/test_arrayprint.py, ['Pauli Virtanen', 'Charles Harris', 'Ralf Gommers', 'Mark Wiebe', 'Derek Homeier', 'Skipper Seabold', 'wrwrwr', 'Shota Kawabuchi', 'Sami Salonen', 'Eric Wieser', 'Jonathan Helmus', 'Allan Haldane', 'Evgeni Burovski', 'luz.paz', 'Tyler Reddy', 'mattip', 'Sebastian Berg', 'Kexuan Sun', 'kritisingh1', 'Jon Dufresne', 'Brian Wignall', 'Seth Troisi', 'Warren Weckesser', 'Zac-HD', 'Pan Jan', 'Mitchell Faas', 'Mike Taves', 'Dimitri Papadopoulos'], 2010-07-18, 28, 95
+numpy/tests/test_matlib.py, ['Pauli Virtanen', 'Charles Harris', 'Eric Wieser', 'Danny Hermes', 'Marten van Kerkwijk', 'Jon Dufresne', 'Seth Troisi'], 2010-07-31, 7, 13
+numpy/polynomial/tests/test_legendre.py, ['Charles Harris', 'Nathaniel J. Smith', 'Jonathan Underwood', 'Dongjoon Hyun', 'Jeffrey Yancey', 'Eric Wieser', 'Jon Dufresne', 'Anton Ritter-Gogerly', 'jbCodeHub'], 2010-08-17, 9, 31
+numpy/core/tests/test_half.py, ['Mark Wiebe', 'Nicolas Pinto', 'Charles Harris', 'Ralf Gommers', 'Stephan Hoyer', 'Eric Wieser', 'mattip', 'Roman Yurchak', 'Sebastian Berg', 'luzpaz', 'Jon Dufresne', 'Adam'], 2010-11-09, 12, 35
+numpy/core/tests/test_new_iterator.py, ['Mark Wiebe', 'Pauli Virtanen'], 2010-12-11, 2, 54
+numpy/random/tests/test_regression.py, ['Charles Harris', 'Nathaniel J. Smith', 'Sebastian Berg', 'Christoph Gohlke', 'Anton Ovchinnikov', 'Jaime Fernandez', 'alex', 'Simon Gibbons', 'gfyoung', 'Kevin Sheppard', 'mattip', 'Ralf Gommers', 'Jon Dufresne', 'Matti Picus', 'Eric Wieser', 'Jakob', 'Raúl Montón Pinillos', 'shubham11941140'], 2011-01-24, 18, 35
+numpy/core/tests/test_einsum.py, ['Mark Wiebe', 'Charles Harris', 'Sebastian Berg', 'hpaulj', 'Jez Ng', 'Toon Verstraelen', 'Ian Henriksen', 'Dongjoon Hyun', 'Daniel Smith', 'Ville Skyttä', 'Simon Conseil', 'Eric Larson', 'Eric Wieser', 'Jaime Fernandez', 'Toshiki Kataoka', 'Juris Bogusevs', 'Ryan Soklaski', 'mattip', 'Roman Yurchak', 'Jack J. Woehr', 'Jon Dufresne', 'sgasse', 'Ryan', 'Daniel G. A. Smith', 'Dimitri Papadopoulos'], 2011-02-01, 25, 56
+numpy/f2py/tests/test_assumed_shape.py, ['Pearu Peterson', 'Charles Harris', 'Pauli Virtanen', 'Jon Dufresne', 'Mike Taves', 'Rohit Goswami'], 2011-02-25, 6, 20
+numpy/f2py/tests/test_kind.py, ['Pearu Peterson', 'Charles Harris', 'Jon Dufresne', 'Rohit Goswami'], 2011-02-27, 4, 15
+numpy/polynomial/tests/test_hermite.py, ['Charles Harris', 'Nathaniel J. Smith', 'Jonathan Underwood', 'Dongjoon Hyun', 'Jeffrey Yancey', 'Eric Wieser', 'Jon Dufresne', 'Anton Ritter-Gogerly'], 2010-09-22, 8, 31
+numpy/polynomial/tests/test_hermite_e.py, ['Charles Harris', 'Nathaniel J. Smith', 'Jonathan Underwood', 'Dongjoon Hyun', 'Jeffrey Yancey', 'Eric Wieser', 'Jon Dufresne', 'Anton Ritter-Gogerly'], 2010-09-22, 8, 31
+numpy/polynomial/tests/test_laguerre.py, ['Charles Harris', 'Nathaniel J. Smith', 'Jonathan Underwood', 'Dongjoon Hyun', 'Jeffrey Yancey', 'Eric Wieser', 'Jon Dufresne', 'Anton Ritter-Gogerly'], 2010-09-22, 8, 30
+numpy/distutils/tests/test_fcompiler_intel.py, ['rgommers', 'Charles Harris', 'Jon Dufresne'], 2011-03-09, 3, 9
+numpy/f2py/tests/test_size.py, ['Pearu Peterson', 'Charles Harris', 'Nico Schlömer', 'Jon Dufresne', 'Rohit Goswami'], 2011-03-13, 5, 18
+numpy/core/tests/test_iterator.py, ['Mark Wiebe'], 2011-03-13, 1, 9
+numpy/core/tests/test_api.py, ['Mark Wiebe', 'Nathaniel J. Smith', 'Sebastian Berg', 'Charles Harris', 'Jay Bourque', 'm-d-w', 'Julian Taylor', 'Brian Kearns', 'Boxiang Sun', 'mattip', 'James Sanders', 'Eric Wieser', 'Marten van Kerkwijk', 'Kexuan Sun', 'Jon Dufresne', 'Seth Troisi', 'dojafrat', 'czgdp1807', 'Dimitri Papadopoulos'], 2011-03-23, 19, 63
+numpy/core/tests/test_nditer.py, ['Mark Wiebe', 'Charles Harris', 'Nathaniel J. Smith', 'Sebastian Berg', 'Julian Taylor', 'mattip', 'Pauli Virtanen', 'Allan Haldane', 'Eric Wieser', 'Ville Skyttä', 'Marten van Kerkwijk', 'Roman Yurchak', 'luzpaz', 'Jon Dufresne', 'mrios', 'Hugo Defois', 'Matti Picus', 'Dimitri Papadopoulos'], 2011-07-10, 18, 100
+numpy/polynomial/tests/test_printing.py, ['Charles Harris', 'Eric Wieser', 'Allan Haldane', 'Jon Dufresne', 'Ross Barnowski'], 2011-07-15, 5, 16
+numpy/testing/tests/test_doctesting.py, ['Matthew Brett', 'Charles Harris', 'Jon Dufresne'], 2011-08-15, 3, 7
+numpy/core/tests/test_na.py, ['Mark Wiebe', 'Charles Harris'], 2011-07-22, 2, 16
+numpy/core/tests/test_maskna.py, ['Mark Wiebe', '87', 'Charles Harris', 'Bryan Van de Ven', 'Nathaniel J. Smith'], 2011-07-29, 5, 55
+numpy/core/tests/test_indexing.py, ['Mark Wiebe', 'Charles Harris', 'Han Genuit', 'Sebastian Berg', 'Dimas Abreu Dutra', 'Julian Taylor', 'Nathaniel J. Smith', 'Allan Haldane', 'Greg Thomsen', 'Holger Kohr', 'Tadeu Manoel', 'mattip', 'Pierre de Buyl', 'Yu Feng', 'John Kirkham', 'Eric Wieser', 'luz.paz', 'Pauli Virtanen', 'Marten van Kerkwijk', 'Bruce Merry', 'jeremiedbb', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser', 'Aaron Meurer', 'Dimitri Papadopoulos', 'Peter Hawkins'], 2011-08-03, 27, 95
+numpy/polynomial/tests/test_classes.py, ['Charles Harris', 'Jonathan Underwood', 'Eric Wieser', 'patto90', 'Jon Dufresne', 'Anton Ritter-Gogerly', 'Ross Barnowski', 'Raghuveer Devulapalli'], 2011-12-23, 8, 28
+numpy/lib/tests/test_arraypad.py, ['tim cera', 'Charles Harris', 'Josh Warner (Mac)', 'Jostein Bø Fløystad', 'Antony Lee', 'bertrand', 'chiffa', 'Warren Weckesser', 'Eric Wieser', 'Iryna Shcherbina', 'Lars G', 'Pim de Haan', 'Mark Harfouche', 'Lars Grüter', 'Lars Grueter', 'Stefan van der Walt', 'Gregory R. Lee', 'mattip', 'Ralf Gommers', 'Jon Dufresne', 'Matti Picus', 'drosin'], 2012-02-06, 22, 41
+tools/test-installed-numpy.py, ['Nathaniel J. Smith', 'Charles Harris', 'Sebastian Berg', 'alyssaq', 'mattip'], 2012-05-21, 5, 10
+numpy/core/tests/test_indexerrors.py, ['Thouis (Ray) Jones', 'Nathaniel J. Smith', 'Sebastian Berg', 'Charles Harris', 'Jon Dufresne', 'Yilin LI'], 2012-06-06, 6, 13
+numpy/core/tests/test_multiarray_assignment.py, ['Ben Walsh', 'Charles Harris', 'Julian Taylor'], 2012-06-30, 3, 7
+numpy/core/tests/test_deprecations.py, ['David Warde-Farley', 'Charles Harris', 'Sebastian Berg', 'Julian Taylor', 'Nathaniel J. Smith', 'Antony Lee', 'Boxiang Sun', 'gfyoung', 'Stephan Hoyer', 'Dongjoon Hyun', 'Emilien Kofman', 'Jaime Fernandez', 'Eric Wieser', 'saurabh', 'Mads Ohm Larsen', 'Jonathan L Long', 'hemildesai', 'Matti Picus', 'Mike Toews', 'Marten van Kerkwijk', 'mattip', 'Roman Yurchak', 'Samesh', 'Guilherme Leobas', 'kritisingh1', 'Seth Troisi', 'Ralf Gommers', 'Jon Dufresne', 'Warren Weckesser', 'Hameer Abbasi', 'Anirudh Subramanian', 'Bas van Beek', 'Ryan Polley', 'NectDz', 'Dimitri Papadopoulos', 'Joseph R. Fox-Rabinovitz', 'Andrew Murray', 'Peter Hawkins'], 2012-12-13, 38, 159
+numpy/core/tests/test_item_selection.py, ['Sebastian Berg', 'Charles Harris', 'Julian Taylor', 'Yash Mehrotra', 'Rémy Léone', 'mattip', 'Eric Wieser', 'Gary Gurlaskie', 'Jon Dufresne'], 2012-11-13, 9, 23
+numpy/core/tests/test_scalarprint.py, ['Charles Harris', 'Allan Haldane', 'Eric Wieser', 'Roman Yurchak', 'luzpaz', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser', 'Mike Taves', 'Niyas Sait', 'Dimitri Papadopoulos', 'Cornelius Roemer'], 2013-01-20, 12, 27
+doc/sphinxext/numpydoc/tests/test_docscrape.py, ['Pauli Virtanen', 'Charles Harris', 'endolith', 'Rob Ruana'], 2013-02-16, 4, 10
+doc/sphinxext/numpydoc/tests/test_linkcode.py, ['Pauli Virtanen', 'Charles Harris'], 2013-02-16, 2, 3
+doc/sphinxext/numpydoc/tests/test_phantom_import.py, ['Pauli Virtanen', 'Charles Harris'], 2013-02-16, 2, 3
+doc/sphinxext/numpydoc/tests/test_plot_directive.py, ['Pauli Virtanen', 'Charles Harris'], 2013-02-16, 2, 3
+doc/sphinxext/numpydoc/tests/test_traitsdoc.py, ['Pauli Virtanen', 'Charles Harris'], 2013-02-16, 2, 3
+numpy/distutils/tests/test_exec_command.py, ['Ralf Gommers', 'Ondrej Certik', 'Charles Harris', 'Julian Taylor', 'Christoph Gohlke', 'mattip', 'Jon Dufresne', 'Seth Troisi'], 2013-03-06, 8, 19
+numpy/linalg/tests/test_deprecations.py, ['Charles Harris', 'Jon Dufresne'], 2013-04-01, 2, 4
+numpy/core/tests/test_gufuncs_linalg.py, ['ovillellas', 'Pauli Virtanen'], 2012-11-09, 2, 12
+numpy/linalg/tests/test_gufuncs_linalg.py, ['Pauli Virtanen', 'Charles Harris'], 2013-04-10, 2, 4
+numpy/core/src/umath/test_rational.c.src, ['Jay Bourque', 'Charles Harris', 'Mark Wiebe', 'Julian Taylor', 'Sebastian Berg', 'Lars Buitinck', 'Ralf Gommers', 'Pierre de Buyl', 'Eric Wieser'], 2013-04-26, 9, 23
+doc/swig/test/testSuperTensor.py, ['Egor Zindy', 'Charles Harris'], 2013-06-08, 2, 2
+numpy/lib/tests/test_nanfunctions.py, ['Charles Harris', 'Sebastian Berg', 'Marten van Kerkwijk', 'David Freese', 'Julian Taylor', 'Stephan Hoyer', 'Nathaniel J. Smith', 'John Kirkham', 'Joseph Fox-Rabinovitz', 'Phillip J. Wolfram', 'Eric Wieser', 'Chun-Wei Yuan', 'luzpaz', 'Tyler Reddy', 'Christopher Whelan', 'Jon Dufresne', 'Bas van Beek', 'Alessia Marcolini'], 2013-06-20, 18, 51
+numpy/core/tests/test_scalarinherit.py, ['Travis E. Oliphant', 'Charles Harris', 'mattip', 'Roman Yurchak', 'Eric Wieser', 'Jon Dufresne', 'Sebastian Berg', 'Dimitri Papadopoulos'], 2014-02-26, 8, 14
+tools/swig/test/testArray.py, ['Charles Harris', 'Glen Mabey', 'Chris Lamb', 'Jon Dufresne', 'Mike Taves', 'Changqing Li', 'Mathieu Lamarre'], 2014-03-12, 7, 7
+tools/swig/test/testFarray.py, ['Charles Harris', 'Chris Lamb', 'Hugo', 'Jon Dufresne', 'Changqing Li', 'Hugo van Kemenade'], 2014-03-12, 6, 7
+tools/swig/test/testFortran.py, ['Charles Harris', 'Chris Lamb', 'gfyoung', 'Nicola Soranzo', 'Jon Dufresne', 'Mike Taves', 'Changqing Li'], 2014-03-12, 7, 8
+tools/swig/test/testMatrix.py, ['Charles Harris', 'Chris Lamb', 'Nicola Soranzo', 'Jon Dufresne', 'Mike Taves', 'Changqing Li'], 2014-03-12, 6, 6
+tools/swig/test/testSuperTensor.py, ['Charles Harris', 'Chris Lamb', 'Nicola Soranzo', 'Jon Dufresne', 'Mike Taves', 'Changqing Li'], 2014-03-12, 6, 7
+tools/swig/test/testTensor.py, ['Charles Harris', 'Chris Lamb', 'Nicola Soranzo', 'Jon Dufresne', 'Mike Taves', 'Changqing Li'], 2014-03-12, 6, 6
+tools/swig/test/testVector.py, ['Charles Harris', 'Chris Lamb', 'Nicola Soranzo', 'Jon Dufresne', 'Mike Taves', 'Changqing Li'], 2014-03-12, 6, 6
+numpy/core/tests/test_abc.py, ['Martin Teichmann', 'Julian Taylor', 'Charles Harris', 'Eric Wieser', 'Jon Dufresne'], 2014-03-25, 5, 7
+numpy/lib/tests/test__version.py, ['Charles Harris', 'Jon Dufresne', 'Kenichi Maehashi'], 2014-05-14, 3, 5
+numpy/compat/tests/test_compat.py, ['Olivier Grisel', 'Charles Harris', 'Julian Taylor', 'Jon Dufresne'], 2014-06-26, 4, 7
+numpy/f2py/tests/test_regression.py, ['Charles Harris', 'Nick Papior', 'Roman Yurchak', 'mattip', 'Jon Dufresne', 'Sturla Molden', 'Ralf Gommers', 'Rohit Goswami'], 2014-10-09, 8, 16
+numpy/lib/tests/test_packbits.py, ['Lars Buitinck', 'Charles Harris', 'Takuya Akiba', 'Julian Taylor', 'Joseph Fox-Rabinovitz', 'mattip', 'Jon Dufresne'], 2014-11-27, 7, 12
+numpy/distutils/tests/test_system_info.py, ['Nick Papior Andersen', 'Charles Harris', 'Christoph Gohlke', 'Rémy Léone', 'Matthew Brett', 'Sebastian Berg', 'Marvin Schmidt', 'Julian Taylor', 'Eric Wieser', 'xoviat', 'Nick R. Papior', 'Jon Dufresne', 'mattip', 'Bas van Beek', 'DWesl'], 2015-02-24, 15, 35
+numpy/tests/test_scripts.py, ['Matthew Brett', 'Christoph Gohlke', 'Jörn Hees', 'Charles Harris', 'gfyoung', 'Dongjoon Hyun', 'Eric Wieser', 'Eric Schles', 'Roman Yurchak', 'mattip', 'Jon Dufresne', 'Mike Taves'], 2015-04-29, 12, 25
+tools/swig/test/testFlat.py, ['Tom Krauss', 'Nicola Soranzo', 'Jon Dufresne', 'Mike Taves', 'Changqing Li', 'Mathieu Lamarre'], 2015-05-25, 6, 6
+numpy/core/tests/test_longdouble.py, ['Anne Archibald', 'Charles Harris', 'Matthew Brett', 'Eric Wieser', 'mattip', 'Tyler Reddy', 'zjpoh', 'Sebastian Berg', 'Jon Dufresne', 'Stephannie Jimenez Gacha'], 2015-08-12, 10, 27
+numpy/core/tests/test_mem_overlap.py, ['Pauli Virtanen', 'Charles Harris', 'gfyoung', 'Julian Taylor', 'xoviat', 'Roman Yurchak', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser', 'mattip', 'Eric Wieser', 'Sebastian Berg'], 2015-08-12, 12, 32
+numpy/core/tests/test_extint128.py, ['Pauli Virtanen', 'Julian Taylor', 'Eric Wieser', 'Charles Harris', 'Roman Yurchak', 'Jon Dufresne'], 2015-08-15, 6, 8
+numpy/core/tests/test_fromnumeric.py, ['gfyoung'], 2016-01-12, 1, 1
+numpy/tests/test_numpy_version.py, ['Ralf Gommers', 'Charles Harris', 'Jon Dufresne', 'Jérôme Kieffer'], 2015-12-29, 4, 10
+numpy/tests/test_reloading.py, ['Charles Harris', 'Eric Wieser', 'Pierre Glaser', 'Jon Dufresne', 'Seth Troisi', 'Mike Taves', 'Sebastian Berg', 'Bas van Beek'], 2016-07-20, 8, 12
+numpy/tests/test_warnings.py, ['Sebastian Berg', 'Ville Skyttä', 'Charles Harris', 'Jon Dufresne', 'Seth Troisi', 'Mike Taves'], 2016-01-29, 6, 10
+numpy/f2py/tests/test_parameter.py, ['Nick Papior', 'jutke', 'Charles Harris', 'Roman Yurchak', 'Jon Dufresne', 'Rohit Goswami'], 2016-11-23, 6, 11
+numpy/lib/tests/test_mixins.py, ['Stephan Hoyer', 'Charles Harris', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser'], 2017-04-21, 5, 13
+numpy/f2py/tests/test_string.py, ['Julian Taylor', 'Charles Harris', 'Jon Dufresne', 'Pearu Peterson', 'Ralf Gommers', 'Rohit Goswami'], 2017-04-15, 6, 15
+numpy/ma/tests/test_deprecations.py, ['Eric Wieser', 'Ville Skyttä', 'Charles Harris', 'Jon Dufresne', 'Dimitri Papadopoulos'], 2017-04-07, 5, 10
+numpy/f2py/tests/test_common.py, ['Bob Eldering', 'Charles Harris', 'xoviat', 'Jon Dufresne', 'Rohit Goswami'], 2017-06-13, 5, 10
+numpy/f2py/tests/test_block_docstring.py, ['Bob Eldering', 'Charles Harris', 'xoviat', 'Roman Yurchak', 'mattip', 'Jon Dufresne', 'Matti Picus', 'MelissaWM', 'Rohit Goswami'], 2017-07-07, 9, 14
+numpy/distutils/tests/test_fcompiler_nagfor.py, ['Andrew Lawson', 'Charles Harris', 'Jon Dufresne'], 2017-10-19, 3, 6
+numpy/core/tests/test_scalar_ctors.py, ['Eric Wieser', 'luz.paz', 'Charles Harris', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser'], 2017-11-04, 6, 12
+numpy/lib/tests/test_histograms.py, ['Eric Wieser', 'Kirit Thadaka', 'Charles Harris', 'Varun Nayyar', 'luzpaz', 'Matthew Bowden', 'Tyler Reddy', 'guoci', 'Marten van Kerkwijk', 'Roman Yurchak', 'mattip', 'Warren Weckesser', 'Jon Dufresne', 'Brian Wignall'], 2017-12-09, 14, 32
+numpy/f2py/tests/test_quoted_character.py, ['bobeldering', 'Charles Harris', 'Tyler Reddy', 'Roman Yurchak', 'Jon Dufresne', 'Mike Taves', 'Rohit Goswami'], 2018-03-04, 7, 11
+numpy/f2py/tests/test_semicolon_split.py, ['Bob Eldering', 'Charles Harris', 'Tyler Reddy', 'Jon Dufresne', 'Rohit Goswami'], 2018-03-08, 5, 8
+numpy/distutils/tests/test_from_template.py, ['Warren Weckesser', 'Charles Harris'], 2018-03-10, 2, 2
+numpy/core/tests/test_scalarbuffer.py, ['Jeff VanOss', 'Charles Harris', 'Matti Picus', 'mattip', 'Elliott Sales de Andrade', 'Antony Lee', 'Jon Dufresne', 'Seth Troisi', 'Warren Weckesser', 'Eric Wieser', 'Sebastian Berg'], 2018-03-25, 11, 14
+numpy/matrixlib/tests/test_matrix_linalg.py, ['Marten van Kerkwijk', 'Charles Harris', 'Roman Yurchak', 'Jon Dufresne'], 2018-04-25, 4, 5
+numpy/matrixlib/tests/test_masked_matrix.py, ['Marten van Kerkwijk', 'Charles Harris', 'Pierre Glaser', 'Roman Yurchak', 'Alex Watt', 'Jon Dufresne', 'Sebastian Berg'], 2018-04-26, 7, 14
+numpy/matrixlib/tests/test_interaction.py, ['Marten van Kerkwijk', 'Charles Harris', 'Jon Dufresne', 'Seth Troisi'], 2018-04-29, 4, 8
+doc/source/reference/testing.rst, ['mattip'], 2018-05-13, 1, 1
+numpy/distutils/tests/test_fcompiler.py, ['Isuru Fernando', 'Ralf Gommers', 'Jon Dufresne', 'Mike Taves'], 2018-07-07, 4, 8
+numpy/f2py/tests/test_compile_function.py, ['Charles Harris', 'Sebastian Berg', 'Jon Dufresne', 'Seth Troisi', 'Rohit Goswami'], 2018-09-20, 5, 9
+numpy/core/tests/test_overrides.py, ['Stephan Hoyer', 'Pierre Glaser', 'Marten van Kerkwijk', 'Charles Harris', 'Jon Dufresne', 'Peter Andreas Entschev', 'Sebastian Berg'], 2018-09-20, 7, 36
+numpy/tests/test_public_api.py, ['Stephan Hoyer', 'mattip', 'Joseph Fox-Rabinovitz', 'Mark Harfouche', 'Ralf Gommers', 'Matti Picus', 'Jon Dufresne', 'Eric Wieser', 'Seth Troisi', 'SanthoshBala18', 'Warren Weckesser', 'Josh Wilson', 'Sayed Adel', 'Erfan Nariman | Veneficus', 'Daniel Vanzo', 'Jakob', 'Tomoki, Karatsu', 'kumudlakara', 'Bas van Beek', 'Ross Barnowski', 'czgdp1807', 'Aaron Meurer', 'Charles Harris', 'Pearu Peterson', 'Matthew Barber', 'Matthew', 'Thomas Green'], 2018-11-13, 27, 64
+numpy/fft/tests/test_pocketfft.py, ['Martin Reinecke', 'Roman Yurchak', 'Oleksandr Pavlyk', 'Eric Larson', 'Jon Dufresne', 'Seth Troisi', 'Mike Taves', 'Chris Vavaliaris', 'shubham11941140'], 2018-12-25, 9, 16
+numpy/distutils/tests/test_shell_utils.py, ['Eric Wieser', 'Jon Dufresne', 'Mike Taves'], 2019-02-23, 3, 3
+numpy/core/tests/test_scalar_methods.py, ['Eric Wieser', 'Tyler Reddy', 'luzpaz', 'Jon Dufresne', 'Warren Weckesser', 'Sebastian Berg', 'Bas van Beek', 'Ganesh Kathiresan'], 2017-11-05, 8, 14
+_randomgen/test.py, ['Kevin Sheppard'], 2018-02-28, 1, 1
+_randomgen/core_prng/tests/test_against_numpy.py, ['Kevin Sheppard'], 2018-03-09, 1, 3
+_randomgen/core_prng/tests/test_direct.py, ['Kevin Sheppard'], 2018-03-09, 1, 4
+_randomgen/core_prng/tests/test_numpy_mt19937.py, ['Kevin Sheppard'], 2018-03-09, 1, 4
+_randomgen/core_prng/tests/test_numpy_mt19937_regressions.py, ['Kevin Sheppard'], 2018-03-09, 1, 1
+_randomgen/core_prng/tests/test_smoke.py, ['Kevin Sheppard'], 2018-03-09, 1, 4
+_randomgen/randomgen/tests/test_against_numpy.py, ['Kevin Sheppard'], 2018-03-14, 1, 9
+_randomgen/randomgen/tests/test_direct.py, ['Kevin Sheppard'], 2018-03-14, 1, 5
+_randomgen/randomgen/tests/test_numpy_mt19937.py, ['Kevin Sheppard', 'bduvenhage'], 2018-03-14, 2, 14
+_randomgen/randomgen/tests/test_numpy_mt19937_regressions.py, ['Kevin Sheppard'], 2018-03-14, 1, 4
+_randomgen/randomgen/tests/test_smoke.py, ['Kevin Sheppard'], 2018-03-14, 1, 4
+_randomgen/randomgen/tests/test_legacy.py, ['Kevin Sheppard'], 2018-03-28, 1, 2
+numpy/random/randomgen/tests/test_against_numpy.py, ['mattip'], 2019-03-20, 1, 1
+numpy/random/randomgen/tests/test_direct.py, ['mattip', 'Kevin Sheppard'], 2019-03-20, 2, 2
+numpy/random/randomgen/tests/test_generator_mt19937.py, ['mattip', 'Kevin Sheppard'], 2019-03-20, 2, 2
+numpy/random/randomgen/tests/test_generator_mt19937_regressions.py, ['mattip'], 2019-03-20, 1, 1
+numpy/random/randomgen/tests/test_randomstate.py, ['mattip', 'Kevin Sheppard'], 2019-03-20, 2, 2
+numpy/random/randomgen/tests/test_randomstate_regression.py, ['mattip'], 2019-03-20, 1, 1
+numpy/random/randomgen/tests/test_smoke.py, ['mattip'], 2019-03-20, 1, 1
+numpy/random/tests/test_against_numpy.py, ['mattip', 'Kevin Sheppard'], 2019-04-10, 2, 5
+numpy/random/tests/test_direct.py, ['mattip', 'Kevin Sheppard', 'Charles Harris', 'Robert Kern', 'Jon Dufresne', 'Matti Picus', 'Jakob', 'warren'], 2019-04-10, 8, 30
+numpy/random/tests/test_generator_mt19937.py, ['mattip', 'Kevin Sheppard', 'jeremiedbb', 'Bernardt Duvenhage', 'Warren Weckesser', 'Guillaume Horel', 'RedRuM', 'Maxwell Aladago', 'Kexuan Sun', 'Eric Wieser', 'Jon Dufresne', 'Pan Jan', 'Max Balandat', 'panpiort8', 'Benjamin Trendelkamp-Schroer', 'Nikola Forró', 'Ralf Gommers', 'Charles Harris', 'warren', 'Dimitri Papadopoulos', 'Raúl Montón Pinillos'], 2019-04-10, 21, 68
+numpy/random/tests/test_generator_mt19937_regressions.py, ['mattip', 'Warren Weckesser', 'Ralf Gommers', 'Jon Dufresne', 'Matti Picus', 'Eric Wieser', 'Jakob', 'Raúl Montón Pinillos', 'Kevin Sheppard', 'shubham11941140', 'Alessia Marcolini'], 2019-04-10, 11, 16
+numpy/random/tests/test_randomstate.py, ['mattip', 'Kevin Sheppard', 'luzpaz', 'jeremiedbb', 'Maxwell Aladago', 'Eric Wieser', 'Jon Dufresne', 'Warren Weckesser', 'Nikola Forró', 'Ralf Gommers'], 2019-04-10, 10, 23
+numpy/random/tests/test_randomstate_regression.py, ['mattip', 'Kevin Sheppard', 'Warren Weckesser', 'Ralf Gommers', 'Jon Dufresne', 'Matti Picus', 'przemb', 'Eric Wieser', 'Jakob', 'Raúl Montón Pinillos', 'shubham11941140'], 2019-04-10, 11, 20
+numpy/random/tests/test_smoke.py, ['mattip', 'Kevin Sheppard', 'Robert Kern', 'Eric Wieser', 'Warren Weckesser', 'Jon Dufresne', 'Jakob'], 2019-04-10, 7, 21
+numpy/random/tests/test_seed_sequence.py, ['mattip', 'Robert Kern'], 2019-06-26, 2, 5
+numpy/core/tests/test_umath_accuracy.py, ['Raghuveer Devulapalli', 'Charles Harris', 'mattip', 'Eric Wieser', 'Jon Dufresne', 'Mike Taves', 'Gengxin Xie', 'Alessia Marcolini', 'H. Vetinari'], 2019-07-16, 9, 19
+test_requirements.txt, ['mattip', 'dependabot-preview[bot]', 'Zac-HD', 'Charles Harris', 'Ralf Gommers', 'Josh Wilson', 'Bas van Beek', 'dependabot[bot]', 'Thomas J. Fan'], 2019-08-27, 9, 161
+numpy/core/tests/test__exceptions.py, ['Eric Wieser', 'bernie gray', 'Bas van Beek', 'Dimitri Papadopoulos'], 2019-09-08, 4, 4
+tools/ci/test_all_newsfragments_used.py, ['Sebastian Berg', 'Changqing Li'], 2019-08-06, 2, 3
+numpy/core/tests/test_issue14735.py, ['keewis'], 2019-10-30, 1, 1
+numpy/random/tests/test_extending.py, ['Matti Picus', 'mattip', 'Mike Taves', 'Charles Harris'], 2019-11-19, 4, 15
+numpy/f2py/tests/test_crackfortran.py, ['mattip', 'Jon Dufresne', 'Mike Taves', 'Damien Caliste', 'Ian Thomas', 'Pearu Peterson', 'Matti Picus', 'Charles Harris', 'Rohit Goswami'], 2019-12-03, 9, 20
+numpy/core/tests/test_protocols.py, ['Matti Picus'], 2019-12-23, 1, 1
+numpy/distutils/tests/test_ccompiler.py, ['Matti Picus', 'Jon Dufresne'], 2019-12-30, 2, 2
+numpy/core/tests/test_cpu_features.py, ['Sayed Adel', 'Mike Taves', 'DWesl', 'Pradipta Ghosh', 'Rafael Cardoso Fernandes Sousa'], 2020-01-21, 5, 9
+numpy/distutils/tests/test_mingw32ccompiler.py, ['Sebastian Berg', 'mattip'], 2020-03-07, 2, 2
+numpy/core/tests/test_conversion_utils.py, ['Eric Wieser', 'Anirudh Subramanian'], 2020-04-17, 2, 5
+numpy/core/tests/test_cython.py, ['jbrockmendel', 'mattip', 'Eric Wieser', 'Leo Singer', 'Charles Harris'], 2020-05-21, 5, 8
+numpy/tests/test_typing.py, ['Josh Wilson', 'Bas van Beek'], 2020-06-06, 2, 4
+numpy/distutils/checks/test_flags.c, ['Sayed Adel'], 2020-06-13, 1, 1
+numpy/distutils/tests/test_ccompiler_opt.py, ['Sayed Adel', 'Michał Górny', 'Mike Taves', 'Tom Tan', 'Rafael Cardoso Fernandes Sousa'], 2020-06-13, 5, 9
+numpy/distutils/tests/test_ccompiler_opt_conf.py, ['Sayed Adel'], 2020-06-13, 1, 4
+numpy/core/tests/test_cpu_dispatcher.py, ['Sayed Adel', 'Dimitri Papadopoulos'], 2020-06-13, 2, 2
+numpy/core/tests/test_array_coercion.py, ['Sebastian Berg', 'Dimitri Papadopoulos', 'Andrew Murray'], 2020-06-19, 3, 20
+numpy/lib/tests/test_financial_expired.py, ['Warren Weckesser', 'Sebastian Berg'], 2020-08-12, 2, 3
+numpy/typing/tests/test_typing.py, ['Charles Harris', 'Bas van Beek', 'Kevin Sheppard', 'Dimitri Papadopoulos', 'Sayantika Banik'], 2020-07-10, 5, 31
+numpy/f2py/tests/test_module_doc.py, ['MelissaWM', 'Rohit Goswami'], 2020-09-23, 2, 6
+numpy/core/tests/test_simd.py, ['Sayed Adel', 'Qiyu8', 'HowJmay', 'slowy07', 'HowJMay'], 2020-07-08, 5, 30
+numpy/core/tests/test_simd_module.py, ['Sayed Adel'], 2020-09-02, 1, 2
+numpy/typing/tests/test_isfile.py, ['Bas van Beek', 'Douglas Fenstermacher'], 2020-11-03, 2, 5
+numpy/core/tests/test_casting_unittests.py, ['Sebastian Berg', 'Gregory Lee', 'Yashasvi Misra', 'Dimitri Papadopoulos', 'Alessia Marcolini'], 2020-11-04, 5, 18
+numpy/core/tests/test_arraymethod.py, ['Sebastian Berg', 'Bas van Beek'], 2020-11-04, 2, 4
+numpy/distutils/tests/test_build_ext.py, ['Nicholas McKibben'], 2021-02-04, 1, 1
+numpy/core/tests/test_argparse.py, ['Sebastian Berg'], 2021-03-17, 1, 1
+numpy/f2py/tests/test_abstract_interface.py, ['Pearu Peterson', 'Charles Harris', 'Rohit Goswami'], 2021-03-29, 3, 6
+numpy/typing/tests/test_generic_alias.py, ['Bas van Beek'], 2021-01-11, 1, 12
+numpy/typing/tests/data/fail/testing.py, ['Bas van Beek'], 2021-06-06, 1, 1
+numpy/typing/tests/data/reveal/testing.py, ['Bas van Beek'], 2021-06-06, 1, 2
+numpy/core/tests/test_hashtable.py, ['Sebastian Berg'], 2021-06-21, 1, 1
+numpy/typing/tests/test_runtime.py, ['Bas van Beek'], 2021-06-24, 1, 3
+numpy/typing/tests/test_typing_extensions.py, ['Bas van Beek'], 2021-07-19, 1, 2
+numpy/_array_api/tests/test_array_object.py, ['Aaron Meurer'], 2021-07-19, 1, 4
+numpy/_array_api/tests/test_elementwise_functions.py, ['Aaron Meurer'], 2021-07-23, 1, 1
+numpy/_array_api/tests/test_creation_functions.py, ['Aaron Meurer'], 2021-07-23, 1, 1
+numpy/core/tests/test_custom_dtypes.py, ['Sebastian Berg'], 2021-07-20, 1, 8
+numpy/array_api/tests/test_array_object.py, ['Aaron Meurer', 'Amit Kumar', 'Matthew'], 2021-08-04, 3, 8
+numpy/array_api/tests/test_creation_functions.py, ['Aaron Meurer', 'czgdp1807', 'Alessia Marcolini'], 2021-08-04, 3, 8
+numpy/array_api/tests/test_elementwise_functions.py, ['Aaron Meurer', 'Matthew'], 2021-08-04, 2, 5
+numpy/f2py/tests/test_symbolic.py, ['Pearu Peterson', 'Rohit Goswami', 'melissawm'], 2021-09-01, 3, 6
+numpy/typing/tests/data/fail/testing.pyi, ['Bas van Beek'], 2021-09-30, 1, 2
+numpy/typing/tests/data/reveal/testing.pyi, ['Bas van Beek', 'Sayantika Banik'], 2021-09-30, 2, 5
+numpy/core/tests/test_mem_policy.py, ['Matti Picus', 'Sebastian Berg', 'mattip', 'Elias Koromilas'], 2021-10-25, 4, 7
+numpy/core/tests/test_dlpack.py, ['Hameer Abbasi', 'mattip', 'Tirth Patel'], 2021-05-27, 3, 13
+numpy/tests/test__all__.py, ['warren'], 2021-11-03, 1, 1
+numpy/distutils/tests/test_log.py, ['Matthew'], 2021-11-11, 1, 1
+numpy/core/tests/test_array_interface.py, ['Burlen Loring'], 2021-12-29, 1, 1
+numpy/array_api/tests/test_sorting_functions.py, ['Matthew Barber'], 2022-01-12, 1, 1
+numpy/array_api/tests/test_set_functions.py, ['Matthew'], 2022-01-13, 1, 1
+numpy/core/tests/test_limited_api.py, ['Leo Singer'], 2022-01-13, 1, 1
+numpy/lib/tests/test_loadtxt.py, ['Sebastian Berg', 'Ross Barnowski'], 2022-01-14, 2, 17
+numpy/_pyinstaller/test_pyinstaller.py, ['bwoodsend'], 2022-01-06, 1, 1
+numpy/array_api/tests/test_data_type_functions.py, ['Matthew Barber'], 2022-01-24, 1, 2
+numpy/array_api/tests/test_validation.py, ['Matthew Barber'], 2022-01-24, 1, 1
+numpy/f2py/tests/test_f2py2e.py, ['Rohit Goswami'], 2022-04-01, 1, 1
