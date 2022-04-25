@@ -1,15 +1,17 @@
 from pydriller import Repository
 
-f = open("Analysis.txt", "a")
+f = open("data/Analysis.csv", "a")
 d = {}
+f.write("filepath, author_names, date_added, num_of_contributors, how_often_modified\n")
+
 for commit in Repository(path_to_repo='https://github.com/numpy/numpy').traverse_commits():
     # f.write("-----------------------------------\n")
-    changecount = 0
+    # changecount = 0
     # f.write(commit.hash)
     # f.write(commit.msg)
 
     for file in commit.modified_files:
-        changecount += 1
+        # changecount += 1
         # if file.new_path is not None:
         #     s = file.new_path.split('/')
         # else:

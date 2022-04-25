@@ -1,3 +1,4 @@
+filepath, author_names, date_added, num_of_contributors, how_often_modified
 weave/tests/test_ast_tools.py, ['Eric Jones', 'Travis Oliphant', 'Pearu Peterson', 'jmiller'], 2002-01-03, 4, 8
 weave/tests/test_blitz_tools.py, ['Eric Jones', 'Travis Oliphant', 'Pearu Peterson', 'jmiller'], 2002-01-03, 4, 18
 weave/tests/test_build_tools.py, ['Eric Jones', 'Pearu Peterson'], 2002-01-03, 2, 3
