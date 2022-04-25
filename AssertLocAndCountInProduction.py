@@ -12,7 +12,7 @@ def getListOfFiles(dirName):
         fullPath = os.path.join(dirName, entry)
         if os.path.isdir(fullPath):
             allFiles = allFiles + getListOfFiles(fullPath)
-        elif entry.find(".py") > 0:
+        elif entry.endswith(".py") > 0:
             allFiles.append(fullPath)
     return allFiles
 
@@ -72,7 +72,7 @@ def writeToCSV():
         writer = csv.writer(csv_file)
         writer.writerow(header)
         for key, value in assertCountDictInProd.items():
-            module = re.findall("^[A-Za-z-]+\/[a-z]+\/([a-z_0-9]+)", key)
+            module = re.findall("^[A-Za-z-]+\/([a-z_0-9]+)", key)
             fileName = key[key.rfind("/") + 1:]
             loactionList = value['assertCountAndLoc'][1]
             loactionInStrFormat = ','.join(str(e) for e in loactionList)
@@ -80,4 +80,5 @@ def writeToCSV():
                 writer.writerow([key, module[0], fileName, loactionInStrFormat, value['assertCountAndLoc'][0]])
 
 
-dirName = 'numpy-production/numpy'
+dirName = 'numpy-updated-production-code'
+
