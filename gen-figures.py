@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import AssertCount as ac
 import AssertLocAndCountInProduction as acp
-
+import plotly.express as px
 
 def generateAssertCountPlots():
     ac.getAssertCountForAllFiles()
@@ -51,6 +51,24 @@ def generateAssertCountInProductionPlots():
                                                                                            numberOfAssertStatements) + ')')
     plt.savefig("figures/Assert-Statements-Count-Production", dpi=300)
 
+def generatePlotsPyDriller():
+    data1 = pd.read_csv('data/PyDrillerCommitMessages.csv')
+    dataframe = pd.DataFrame(data1)
+    count = list(dataframe.iloc[1:, 0])
+    num_of_occurences = list(dataframe.iloc[1:, 1])
+    # plt.bar(count, num_of_occurences, color='g')
+    # plt.title("Commit Message Trends")
+    # plt.xlabel("code")
+    # plt.ylabel("Number of commits")
+    #
+    # plt.savefig('figures/PyDrillerCommits')
+    fig = px.bar(dataframe, x='code', y=' number_of_occurences')
+    fig.write_image("figures/PyDrillerCommitMessages.png")
 
-generateAssertCountPlots()
-generateAssertCountInProductionPlots()
+if __name__ == "__main__":
+
+    generateAssertCountInProductionPlots()
+    generateAssertCountPlots()
+    generatePlotsPyDriller()
+
+
