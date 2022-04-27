@@ -10,22 +10,12 @@ def getListOfFiles(dirName):
     allFiles = list()
     for entry in listOfFile:
         fullPath = os.path.join(dirName, entry)
-        if os.path.isdir(fullPath):
+        if os.path.isdir(fullPath) and entry != "tests":
             allFiles = allFiles + getListOfFiles(fullPath)
-        elif entry.endswith(".py") > 0:
+        elif not (fullPath.endswith("tests") or fullPath.endswith("pyi") or fullPath.endswith(
+                "pyc") or fullPath.endswith(".DS_Store") or "/testing" in fullPath):
             allFiles.append(fullPath)
     return allFiles
-
-
-def getTestFiles(path):
-    testFiles = list()
-    files = getListOfFiles(path)
-    for forEachFile in files:
-        index = forEachFile.rfind('/')
-        fileName = forEachFile[index + 1:]
-        if fileName.startswith("test"):
-            testFiles.append(forEachFile)
-    return testFiles
 
 
 def skipLines(position, linesForSkipLines):
@@ -41,10 +31,9 @@ def skipLines(position, linesForSkipLines):
 
 def getAssertLocAndCountForAFile(filePath):
     file = open(filePath, 'r')
-    location = list()
-    assertCount = 0
-    assertDict = dict()
     lines = file.readlines()
+    listOfLoc = list()
+    assertCount = 0
     i = 0
     while i < len(lines):
         # Skip From Statement
@@ -54,31 +43,26 @@ def getAssertLocAndCountForAFile(filePath):
         # Search Assert using Regex
         if re.search("^assert", lines[i]) or re.search("^\\s+assert", lines[i]):
             assertCount += 1
-            location.append(i + 1)
+            listOfLoc.append(i + 1)
         i += 1
-    assertDict['assertCountAndLoc'] = [assertCount, location]
-    assertCountDictInProd[filePath] = assertDict
+    assertCountDictInProd[filePath] = [assertCount, listOfLoc]
 
 
 def getAssertLocAndCountForAllFiles():
-    allFilesPath = getTestFiles(dirName)
+    dirName = "numpy-git/numpy"
+    allFilesPath = getListOfFiles(dirName)
     for eachFilepath in allFilesPath:
         getAssertLocAndCountForAFile(eachFilepath)
+    return assertCountDictInProd
 
 
 def writeToCSV():
-    header = ['Relative Path', 'Module', 'File Name', 'Assert Location (Line Number)', 'Assert Count']
+    header = ['Relative Path', 'File Name', 'Assert Location (Line Number)', 'Assert Count']
     with open('data/AssertLocAndCountInProduction.csv', 'w') as csv_file:
         writer = csv.writer(csv_file)
         writer.writerow(header)
         for key, value in assertCountDictInProd.items():
-            module = re.findall("^[A-Za-z-]+\/([a-z_0-9]+)", key)
             fileName = key[key.rfind("/") + 1:]
-            loactionList = value['assertCountAndLoc'][1]
+            loactionList = value[1]
             loactionInStrFormat = ','.join(str(e) for e in loactionList)
-            if not (module[0].startswith("_")):
-                writer.writerow([key, module[0], fileName, loactionInStrFormat, value['assertCountAndLoc'][0]])
-
-
-dirName = 'numpy-updated-production-code'
-
+            writer.writerow([key, fileName, loactionInStrFormat, value[0]])
