@@ -71,8 +71,8 @@ def compareAsserts():
 def generatePlotsPyDriller():
     data1 = pd.read_csv('data/PyDrillerCommitMessages.csv')
     dataframe = pd.DataFrame(data1)
-    count = list(dataframe.iloc[1:, 0])
-    num_of_occurences = list(dataframe.iloc[1:, 1])
+    count = list(dataframe.iloc[:, 0])
+    num_of_occurences = list(dataframe.iloc[:, 1])
     plt.bar(count, num_of_occurences, color='b')
     plt.title("Commit Message Trends")
     plt.xlabel("code")
