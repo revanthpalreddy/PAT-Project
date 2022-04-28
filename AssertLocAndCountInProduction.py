@@ -41,7 +41,7 @@ def getAssertLocAndCountForAFile(filePath):
             numberOfLinesToBeSkipped = skipLines(i + 1, lines)
             i = i + numberOfLinesToBeSkipped
         # Search Assert using Regex
-        if re.search("^assert", lines[i]) or re.search("^\\s+assert", lines[i]):
+        if (re.search("^assert", lines[i]) and lines[i].find("=") < 0) or re.search("^\\s+assert", lines[i]):
             assertCount += 1
             listOfLoc.append(i + 1)
         i += 1
