@@ -67,11 +67,6 @@ def compareAsserts():
     plt.savefig("figures/ComapreAsserts", dpi=300)
     plt.close()
 
-def DebugPlot():
-    dcp.getDebugLocAndCountForAllFiles()
-    dcp.writeToCSV()
-
-
 
 def generatePlotsPyDriller():
     data1 = pd.read_csv('data/PyDrillerCommitMessages.csv')
@@ -84,6 +79,7 @@ def generatePlotsPyDriller():
     plt.ylabel("Number of commits")
     plt.savefig('figures/PyDrillerCommits')
     plt.close()
+
 
 def generatePlotsAuthorNames():
     data = pd.read_csv('data/PyDrillerAuthors.csv')
@@ -99,6 +95,27 @@ def generatePlotsAuthorNames():
     plt.tight_layout()
     plt.savefig('figures/PyDrillerAuthors')
     plt.close()
+
+
+def DebugPlot():
+    dcp.getDebugLocAndCountForAllFiles()
+    dcp.writeToCSV()
+    data = pd.read_csv('/Users/revanthreddy/Desktop/DebugLocAndCountInProduction.csv')
+    pythonData = data.loc[(data['File Name'].str.contains(".py"))]
+    pythonDebugCount = pythonData['Debug Count'].sum()
+    otherData = data.loc[~data['File Name'].str.contains(".py")]
+    otherDataDebugCount = otherData['Debug Count'].sum()
+    values = [pythonDebugCount, otherDataDebugCount]
+    lables = ["Python", "C"]
+    plt.bar(lables, values, color='maroon',
+            width=0.2)
+    plt.xlabel("Language")
+    plt.ylabel("No. of Debug Statements")
+    plt.title("Number of Debug Statements in each Language - Total(" + str(sum(values)) + ")")
+    plt.tight_layout()
+    plt.savefig('figures/Dubug')
+    plt.close()
+
 
 if __name__ == "__main__":
     numberOfAssertStatements = generateAssertCountInProductionPlots()
