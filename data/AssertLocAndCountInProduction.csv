@@ -488,7 +488,7 @@ numpy-git/numpy/linalg/lapack_lite/fortran.py,fortran.py,,0
 numpy-git/numpy/linalg/lapack_lite/wrapped_routines,wrapped_routines,,0
 numpy-git/numpy/ma/extras.py,extras.py,,0
 numpy-git/numpy/ma/LICENSE,LICENSE,,0
-numpy-git/numpy/ma/testutils.py,testutils.py,"87,89,100,104,117,121,173,192,225,237,251,265,274,285,287,288",16
+numpy-git/numpy/ma/testutils.py,testutils.py,"87,89,100,104,117,121,225,237,251,265,274,285,287,288",14
 numpy-git/numpy/ma/API_CHANGES.txt,API_CHANGES.txt,,0
 numpy-git/numpy/ma/__init__.py,__init__.py,,0
 numpy-git/numpy/ma/core.py,core.py,,0
@@ -624,7 +624,7 @@ numpy-git/numpy/random/_examples/cffi/extending.py,extending.py,40,1
 numpy-git/numpy/random/_examples/cython/extending_distributions.pyx,extending_distributions.pyx,,0
 numpy-git/numpy/random/_examples/cython/setup.py,setup.py,,0
 numpy-git/numpy/random/_examples/cython/extending.pyx,extending.pyx,,0
-numpy-git/numpy/random/_examples/numba/extending.py,extending.py,"43,44",2
+numpy-git/numpy/random/_examples/numba/extending.py,extending.py,,0
 numpy-git/numpy/random/_examples/numba/extending_distributions.py,extending_distributions.py,,0
 numpy-git/numpy/random/_common.pyx,_common.pyx,,0
 numpy-git/numpy/random/src/mt19937/mt19937.c,mt19937.c,,0

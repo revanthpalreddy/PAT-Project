@@ -59,10 +59,10 @@ def generateAssertCountInProductionPlots():
 
 def compareAsserts():
     values = [numberOfAssertStatements, numberOfAssertStatementsInProd]
-    labels = ["Production","TestFiles"]
+    labels = ["Production", "TestFiles"]
     wp = {'linewidth': 0.5, 'edgecolor': "Black"}
     explode = (0.1, 0.3)
-    plt.pie(values, labels=labels, wedgeprops=wp, explode = explode)
+    plt.pie(values, labels=labels, wedgeprops=wp, explode=explode, autopct='%1.1f%%')
     plt.title("Comparision of Assert Counts in Test and Production Files")
     plt.savefig("figures/ComapreAsserts", dpi=300)
     plt.close()
