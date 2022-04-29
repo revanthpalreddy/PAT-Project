@@ -7,7 +7,7 @@ assertCountDictInProd = dict()
 
 def getListOfFiles(dirName):
     listOfFile = os.listdir(dirName)
-    allFiles =  list()
+    allFiles = list()
     for entry in listOfFile:
         fullPath = os.path.join(dirName, entry)
         if os.path.isdir(fullPath) and entry != "tests":
