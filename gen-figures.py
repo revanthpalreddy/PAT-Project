@@ -100,7 +100,7 @@ def generatePlotsAuthorNames():
 def DebugPlot():
     dcp.getDebugLocAndCountForAllFiles()
     dcp.writeToCSV()
-    data = pd.read_csv('/Users/revanthreddy/Desktop/DebugLocAndCountInProduction.csv')
+    data = pd.read_csv('data/DebugLocAndCountInProduction.csv')
     pythonData = data.loc[(data['File Name'].str.contains(".py"))]
     pythonDebugCount = pythonData['Debug Count'].sum()
     otherData = data.loc[~data['File Name'].str.contains(".py")]
@@ -111,9 +111,26 @@ def DebugPlot():
             width=0.2)
     plt.xlabel("Language")
     plt.ylabel("No. of Debug Statements")
-    plt.title("Number of Debug Statements in each Language - Total(" + str(sum(values)) + ")")
+    plt.title("No. of Debug Statements in each Language (Prod) - Total(" + str(sum(values)) + ")")
     plt.tight_layout()
-    plt.savefig('figures/Dubug')
+    plt.savefig('figures/DebugInProdForEachLang')
+    plt.close()
+
+def AssertCountInProdForLang():
+    data = pd.read_csv('data/AssertLocAndCountInProduction.csv')
+    pythonData = data.loc[(data['File Name'].str.contains(".py"))]
+    pythonDebugCount = pythonData['Assert Count'].sum()
+    otherData = data.loc[~data['File Name'].str.contains(".py")]
+    otherDataDebugCount = otherData['Assert Count'].sum()
+    values = [pythonDebugCount, otherDataDebugCount]
+    lables = ["Python", "C"]
+    plt.bar(lables, values, color='maroon',
+            width=0.2)
+    plt.xlabel("Language")
+    plt.ylabel("No. of Assert Statements")
+    plt.title("No. of Assert Statements in each Language (Prod) - Total(" + str(sum(values)) + ")")
+    plt.tight_layout()
+    plt.savefig('figures/AssertInProdForEachLang')
     plt.close()
 
 
@@ -121,6 +138,7 @@ if __name__ == "__main__":
     numberOfAssertStatements = generateAssertCountInProductionPlots()
     numberOfAssertStatementsInProd = generateAssertCountPlots()
     compareAsserts()
+    AssertCountInProdForLang()
     DebugPlot()
     generatePlotsPyDriller()
     generatePlotsAuthorNames()
