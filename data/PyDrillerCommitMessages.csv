@@ -1,7 +1,8 @@
 code,num_of_occurrences
 bug,2816
-enh,2017
-doc,2895
+enh,2020
+doc,2897
 build,59
-maint,2577
+tst,1186
+maint,2581
 dev,46

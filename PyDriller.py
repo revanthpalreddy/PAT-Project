@@ -32,6 +32,12 @@ for commit in Repository(path_to_repo='https://github.com/numpy/numpy').traverse
         else:
             commitMessages['bug'] += 1
 
+    if bool(re.match('tst', commit.msg, re.I)):
+        if 'tst' not in commitMessages:
+            commitMessages['tst'] = 1
+        else:
+            commitMessages['tst'] += 1
+
     if bool(re.match('enh', commit.msg, re.I)):
         if 'enh' not in commitMessages:
             commitMessages['enh'] = 1
