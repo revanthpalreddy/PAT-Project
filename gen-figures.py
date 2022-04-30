@@ -91,7 +91,7 @@ def generatePlotsAuthorNames():
     plt.xticks(name, name, rotation=20)
     plt.title("Top Contributors")
     plt.xlabel("Names")
-    plt.ylabel("Number of Modifications.")
+    plt.ylabel("Number of Modifications")
     plt.tight_layout()
     plt.savefig('figures/PyDrillerAuthors')
     plt.close()
