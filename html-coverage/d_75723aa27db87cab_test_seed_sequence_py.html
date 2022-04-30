@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+    <title>Coverage for numpy\build\testenv\Lib\site-packages\numpy\random\tests\test_seed_sequence.py: 100%</title>
+    <link rel="icon" sizes="32x32" href="favicon_32.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="coverage_html.js" defer></script>
+</head>
+<body class="pyfile">
+<header>
+    <div class="content">
+        <h1>
+            <span class="text">Coverage for </span><b>numpy\build\testenv\Lib\site-packages\numpy\random\tests\test_seed_sequence.py</b>:
+            <span class="pc_cov">100%</span>
+        </h1>
+        <div id="help_panel_wrapper">
+            <input id="help_panel_state" type="checkbox">
+            <label for="help_panel_state">
+                <img id="keyboard_icon" src="keybd_closed.png" alt="Show/hide keyboard shortcuts" />
+            </label>
+            <div id="help_panel">
+                <p class="legend">Shortcuts on this page</p>
+                <div>
+                    <p class="keyhelp">
+                        <kbd>r</kbd>
+                        <kbd>m</kbd>
+                        <kbd>x</kbd>
+                        &nbsp; toggle line displays
+                    </p>
+                    <p class="keyhelp">
+                        <kbd>j</kbd>
+                        <kbd>k</kbd> &nbsp; next/prev highlighted chunk
+                    </p>
+                    <p class="keyhelp">
+                        <kbd>0</kbd> &nbsp; (zero) top of page
+                    </p>
+                    <p class="keyhelp">
+                        <kbd>1</kbd> &nbsp; (one) first highlighted chunk
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h2>
+            <span class="text">21 statements &nbsp;</span>
+            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">21<span class="text"> run</span></button>
+            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">0<span class="text"> missing</span></button>
+            <button type="button" class="exc show_exc button_toggle_exc" value="exc" data-shortcut="x" title="Toggle lines excluded">0<span class="text"> excluded</span></button>
+        </h2>
+        <div style="display: none;">
+            <button type="button" class="button_next_chunk" data-shortcut="j">Next highlighted chunk</button>
+            <button type="button" class="button_prev_chunk" data-shortcut="k">Previous highlighted chunk</button>
+            <button type="button" class="button_top_of_page" data-shortcut="0">Goto top of page</button>
+            <button type="button" class="button_first_chunk" data-shortcut="1">Goto first highlighted chunk</button>
+        </div>
+    </div>
+</header>
+<main id="source">
+    <p class="run"><span class="n"><a id="t1" href="#t1">1</a></span><span class="t"><span class="key">import</span> <span class="nam">numpy</span> <span class="key">as</span> <span class="nam">np</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t2" href="#t2">2</a></span><span class="t"><span class="key">from</span> <span class="nam">numpy</span><span class="op">.</span><span class="nam">testing</span> <span class="key">import</span> <span class="nam">assert_array_equal</span><span class="op">,</span> <span class="nam">assert_array_compare</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t3" href="#t3">3</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t4" href="#t4">4</a></span><span class="t"><span class="key">from</span> <span class="nam">numpy</span><span class="op">.</span><span class="nam">random</span> <span class="key">import</span> <span class="nam">SeedSequence</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t5" href="#t5">5</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t6" href="#t6">6</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t7" href="#t7">7</a></span><span class="t"><span class="key">def</span> <span class="nam">test_reference_data</span><span class="op">(</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t8" href="#t8">8</a></span><span class="t">    <span class="str">""" Check that SeedSequence generates data the same as the C++ reference.</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t9" href="#t9">9</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t10" href="#t10">10</a></span><span class="t"><span class="str">    https://gist.github.com/imneme/540829265469e673d045</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t11" href="#t11">11</a></span><span class="t"><span class="str">    """</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t12" href="#t12">12</a></span><span class="t">    <span class="nam">inputs</span> <span class="op">=</span> <span class="op">[</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t13" href="#t13">13</a></span><span class="t">        <span class="op">[</span><span class="num">3735928559</span><span class="op">,</span> <span class="num">195939070</span><span class="op">,</span> <span class="num">229505742</span><span class="op">,</span> <span class="num">305419896</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t14" href="#t14">14</a></span><span class="t">        <span class="op">[</span><span class="num">3668361503</span><span class="op">,</span> <span class="num">4165561550</span><span class="op">,</span> <span class="num">1661411377</span><span class="op">,</span> <span class="num">3634257570</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t15" href="#t15">15</a></span><span class="t">        <span class="op">[</span><span class="num">164546577</span><span class="op">,</span> <span class="num">4166754639</span><span class="op">,</span> <span class="num">1765190214</span><span class="op">,</span> <span class="num">1303880213</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t16" href="#t16">16</a></span><span class="t">        <span class="op">[</span><span class="num">446610472</span><span class="op">,</span> <span class="num">3941463886</span><span class="op">,</span> <span class="num">522937693</span><span class="op">,</span> <span class="num">1882353782</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t17" href="#t17">17</a></span><span class="t">        <span class="op">[</span><span class="num">1864922766</span><span class="op">,</span> <span class="num">1719732118</span><span class="op">,</span> <span class="num">3882010307</span><span class="op">,</span> <span class="num">1776744564</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t18" href="#t18">18</a></span><span class="t">        <span class="op">[</span><span class="num">4141682960</span><span class="op">,</span> <span class="num">3310988675</span><span class="op">,</span> <span class="num">553637289</span><span class="op">,</span> <span class="num">902896340</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t19" href="#t19">19</a></span><span class="t">        <span class="op">[</span><span class="num">1134851934</span><span class="op">,</span> <span class="num">2352871630</span><span class="op">,</span> <span class="num">3699409824</span><span class="op">,</span> <span class="num">2648159817</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t20" href="#t20">20</a></span><span class="t">        <span class="op">[</span><span class="num">1240956131</span><span class="op">,</span> <span class="num">3107113773</span><span class="op">,</span> <span class="num">1283198141</span><span class="op">,</span> <span class="num">1924506131</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t21" href="#t21">21</a></span><span class="t">        <span class="op">[</span><span class="num">2669565031</span><span class="op">,</span> <span class="num">579818610</span><span class="op">,</span> <span class="num">3042504477</span><span class="op">,</span> <span class="num">2774880435</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t22" href="#t22">22</a></span><span class="t">        <span class="op">[</span><span class="num">2766103236</span><span class="op">,</span> <span class="num">2883057919</span><span class="op">,</span> <span class="num">4029656435</span><span class="op">,</span> <span class="num">862374500</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t23" href="#t23">23</a></span><span class="t">    <span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t24" href="#t24">24</a></span><span class="t">    <span class="nam">outputs</span> <span class="op">=</span> <span class="op">[</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t25" href="#t25">25</a></span><span class="t">        <span class="op">[</span><span class="num">3914649087</span><span class="op">,</span> <span class="num">576849849</span><span class="op">,</span> <span class="num">3593928901</span><span class="op">,</span> <span class="num">2229911004</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t26" href="#t26">26</a></span><span class="t">        <span class="op">[</span><span class="num">2240804226</span><span class="op">,</span> <span class="num">3691353228</span><span class="op">,</span> <span class="num">1365957195</span><span class="op">,</span> <span class="num">2654016646</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t27" href="#t27">27</a></span><span class="t">        <span class="op">[</span><span class="num">3562296087</span><span class="op">,</span> <span class="num">3191708229</span><span class="op">,</span> <span class="num">1147942216</span><span class="op">,</span> <span class="num">3726991905</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t28" href="#t28">28</a></span><span class="t">        <span class="op">[</span><span class="num">1403443605</span><span class="op">,</span> <span class="num">3591372999</span><span class="op">,</span> <span class="num">1291086759</span><span class="op">,</span> <span class="num">441919183</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t29" href="#t29">29</a></span><span class="t">        <span class="op">[</span><span class="num">1086200464</span><span class="op">,</span> <span class="num">2191331643</span><span class="op">,</span> <span class="num">560336446</span><span class="op">,</span> <span class="num">3658716651</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t30" href="#t30">30</a></span><span class="t">        <span class="op">[</span><span class="num">3249937430</span><span class="op">,</span> <span class="num">2346751812</span><span class="op">,</span> <span class="num">847844327</span><span class="op">,</span> <span class="num">2996632307</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t31" href="#t31">31</a></span><span class="t">        <span class="op">[</span><span class="num">2584285912</span><span class="op">,</span> <span class="num">4034195531</span><span class="op">,</span> <span class="num">3523502488</span><span class="op">,</span> <span class="num">169742686</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t32" href="#t32">32</a></span><span class="t">        <span class="op">[</span><span class="num">959045797</span><span class="op">,</span> <span class="num">3875435559</span><span class="op">,</span> <span class="num">1886309314</span><span class="op">,</span> <span class="num">359682705</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t33" href="#t33">33</a></span><span class="t">        <span class="op">[</span><span class="num">3978441347</span><span class="op">,</span> <span class="num">432478529</span><span class="op">,</span> <span class="num">3223635119</span><span class="op">,</span> <span class="num">138903045</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t34" href="#t34">34</a></span><span class="t">        <span class="op">[</span><span class="num">296367413</span><span class="op">,</span> <span class="num">4262059219</span><span class="op">,</span> <span class="num">13109864</span><span class="op">,</span> <span class="num">3283683422</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t35" href="#t35">35</a></span><span class="t">    <span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t36" href="#t36">36</a></span><span class="t">    <span class="nam">outputs64</span> <span class="op">=</span> <span class="op">[</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t37" href="#t37">37</a></span><span class="t">        <span class="op">[</span><span class="num">2477551240072187391</span><span class="op">,</span> <span class="num">9577394838764454085</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t38" href="#t38">38</a></span><span class="t">        <span class="op">[</span><span class="num">15854241394484835714</span><span class="op">,</span> <span class="num">11398914698975566411</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t39" href="#t39">39</a></span><span class="t">        <span class="op">[</span><span class="num">13708282465491374871</span><span class="op">,</span> <span class="num">16007308345579681096</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t40" href="#t40">40</a></span><span class="t">        <span class="op">[</span><span class="num">15424829579845884309</span><span class="op">,</span> <span class="num">1898028439751125927</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t41" href="#t41">41</a></span><span class="t">        <span class="op">[</span><span class="num">9411697742461147792</span><span class="op">,</span> <span class="num">15714068361935982142</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t42" href="#t42">42</a></span><span class="t">        <span class="op">[</span><span class="num">10079222287618677782</span><span class="op">,</span> <span class="num">12870437757549876199</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t43" href="#t43">43</a></span><span class="t">        <span class="op">[</span><span class="num">17326737873898640088</span><span class="op">,</span> <span class="num">729039288628699544</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t44" href="#t44">44</a></span><span class="t">        <span class="op">[</span><span class="num">16644868984619524261</span><span class="op">,</span> <span class="num">1544825456798124994</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t45" href="#t45">45</a></span><span class="t">        <span class="op">[</span><span class="num">1857481142255628931</span><span class="op">,</span> <span class="num">596584038813451439</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t46" href="#t46">46</a></span><span class="t">        <span class="op">[</span><span class="num">18305404959516669237</span><span class="op">,</span> <span class="num">14103312907920476776</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t47" href="#t47">47</a></span><span class="t">    <span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t48" href="#t48">48</a></span><span class="t">    <span class="key">for</span> <span class="nam">seed</span><span class="op">,</span> <span class="nam">expected</span><span class="op">,</span> <span class="nam">expected64</span> <span class="key">in</span> <span class="nam">zip</span><span class="op">(</span><span class="nam">inputs</span><span class="op">,</span> <span class="nam">outputs</span><span class="op">,</span> <span class="nam">outputs64</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t49" href="#t49">49</a></span><span class="t">        <span class="nam">expected</span> <span class="op">=</span> <span class="nam">np</span><span class="op">.</span><span class="nam">array</span><span class="op">(</span><span class="nam">expected</span><span class="op">,</span> <span class="nam">dtype</span><span class="op">=</span><span class="nam">np</span><span class="op">.</span><span class="nam">uint32</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t50" href="#t50">50</a></span><span class="t">        <span class="nam">ss</span> <span class="op">=</span> <span class="nam">SeedSequence</span><span class="op">(</span><span class="nam">seed</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t51" href="#t51">51</a></span><span class="t">        <span class="nam">state</span> <span class="op">=</span> <span class="nam">ss</span><span class="op">.</span><span class="nam">generate_state</span><span class="op">(</span><span class="nam">len</span><span class="op">(</span><span class="nam">expected</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t52" href="#t52">52</a></span><span class="t">        <span class="nam">assert_array_equal</span><span class="op">(</span><span class="nam">state</span><span class="op">,</span> <span class="nam">expected</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t53" href="#t53">53</a></span><span class="t">        <span class="nam">state64</span> <span class="op">=</span> <span class="nam">ss</span><span class="op">.</span><span class="nam">generate_state</span><span class="op">(</span><span class="nam">len</span><span class="op">(</span><span class="nam">expected64</span><span class="op">)</span><span class="op">,</span> <span class="nam">dtype</span><span class="op">=</span><span class="nam">np</span><span class="op">.</span><span class="nam">uint64</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t54" href="#t54">54</a></span><span class="t">        <span class="nam">assert_array_equal</span><span class="op">(</span><span class="nam">state64</span><span class="op">,</span> <span class="nam">expected64</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t55" href="#t55">55</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t56" href="#t56">56</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t57" href="#t57">57</a></span><span class="t"><span class="key">def</span> <span class="nam">test_zero_padding</span><span class="op">(</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t58" href="#t58">58</a></span><span class="t">    <span class="str">""" Ensure that the implicit zero-padding does not cause problems.</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t59" href="#t59">59</a></span><span class="t"><span class="str">    """</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t60" href="#t60">60</a></span><span class="t">    <span class="com"># Ensure that large integers are inserted in little-endian fashion to avoid</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t61" href="#t61">61</a></span><span class="t">    <span class="com"># trailing 0s.</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t62" href="#t62">62</a></span><span class="t">    <span class="nam">ss0</span> <span class="op">=</span> <span class="nam">SeedSequence</span><span class="op">(</span><span class="num">42</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t63" href="#t63">63</a></span><span class="t">    <span class="nam">ss1</span> <span class="op">=</span> <span class="nam">SeedSequence</span><span class="op">(</span><span class="num">42</span> <span class="op">&lt;&lt;</span> <span class="num">32</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t64" href="#t64">64</a></span><span class="t">    <span class="nam">assert_array_compare</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t65" href="#t65">65</a></span><span class="t">        <span class="nam">np</span><span class="op">.</span><span class="nam">not_equal</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t66" href="#t66">66</a></span><span class="t">        <span class="nam">ss0</span><span class="op">.</span><span class="nam">generate_state</span><span class="op">(</span><span class="num">4</span><span class="op">)</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t67" href="#t67">67</a></span><span class="t">        <span class="nam">ss1</span><span class="op">.</span><span class="nam">generate_state</span><span class="op">(</span><span class="num">4</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t68" href="#t68">68</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t69" href="#t69">69</a></span><span class="t">    <span class="com"># Ensure backwards compatibility with the original 0.17 release for small</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t70" href="#t70">70</a></span><span class="t">    <span class="com"># integers and no spawn key.</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t71" href="#t71">71</a></span><span class="t">    <span class="nam">expected42</span> <span class="op">=</span> <span class="nam">np</span><span class="op">.</span><span class="nam">array</span><span class="op">(</span><span class="op">[</span><span class="num">3444837047</span><span class="op">,</span> <span class="num">2669555309</span><span class="op">,</span> <span class="num">2046530742</span><span class="op">,</span> <span class="num">3581440988</span><span class="op">]</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t72" href="#t72">72</a></span><span class="t">                          <span class="nam">dtype</span><span class="op">=</span><span class="nam">np</span><span class="op">.</span><span class="nam">uint32</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t73" href="#t73">73</a></span><span class="t">    <span class="nam">assert_array_equal</span><span class="op">(</span><span class="nam">SeedSequence</span><span class="op">(</span><span class="num">42</span><span class="op">)</span><span class="op">.</span><span class="nam">generate_state</span><span class="op">(</span><span class="num">4</span><span class="op">)</span><span class="op">,</span> <span class="nam">expected42</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t74" href="#t74">74</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t75" href="#t75">75</a></span><span class="t">    <span class="com"># Regression test for gh-16539 to ensure that the implicit 0s don't</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t76" href="#t76">76</a></span><span class="t">    <span class="com"># conflict with spawn keys.</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t77" href="#t77">77</a></span><span class="t">    <span class="nam">assert_array_compare</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t78" href="#t78">78</a></span><span class="t">        <span class="nam">np</span><span class="op">.</span><span class="nam">not_equal</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t79" href="#t79">79</a></span><span class="t">        <span class="nam">SeedSequence</span><span class="op">(</span><span class="num">42</span><span class="op">,</span> <span class="nam">spawn_key</span><span class="op">=</span><span class="op">(</span><span class="num">0</span><span class="op">,</span><span class="op">)</span><span class="op">)</span><span class="op">.</span><span class="nam">generate_state</span><span class="op">(</span><span class="num">4</span><span class="op">)</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t80" href="#t80">80</a></span><span class="t">        <span class="nam">expected42</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+</main>
+<footer>
+    <div class="content">
+        <p>
+            <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v6.3.2</a>,
+            created at 2022-04-22 20:07 -0500
+        </p>
+    </div>
+</footer>
+</body>
+</html>
