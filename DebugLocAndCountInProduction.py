@@ -10,9 +10,10 @@ def getListOfFiles(dirName):
     allFiles = list()
     for entry in listOfFile:
         fullPath = os.path.join(dirName, entry)
-        if os.path.isdir(fullPath):
+        if os.path.isdir(fullPath) and entry != "tests":
             allFiles = allFiles + getListOfFiles(fullPath)
-        elif entry.find(".py") > 0:
+        elif not (fullPath.endswith("tests") or fullPath.endswith("pyi") or fullPath.endswith(
+                "pyc") or fullPath.endswith(".DS_Store") or "/testing" in fullPath):
             allFiles.append(fullPath)
     return allFiles
 
@@ -24,7 +25,8 @@ def getDebugLocAndCountForAFile(filePath):
     lines = file.readlines()
     i = 0
     while i < len(lines):
-        if re.search("log\.debug", lines[i]):
+        if re.search("log\.debug", lines[i]) or re.search("#if .*DEBUG.*", lines[i]) \
+                or re.search("#ifdef .*DEBUG.*", lines[i]) or re.search("DebugPrint.*;", lines[i]):
             debugCount += 1
             location.append(i + 1)
         i += 1
@@ -38,19 +40,17 @@ def getDebugLocAndCountForAllFiles():
 
 
 def writeToCSV():
-    header = ['Relative Path', 'Module', 'File Name', 'Debug Location (Line Number)', 'Debug Count']
+    header = ['Relative Path', 'File Name', 'Debug Location (Line Number)', 'Debug Count']
     with open('data/DebugLocAndCountInProduction.csv', 'w') as csv_file:
         writer = csv.writer(csv_file)
         writer.writerow(header)
         for key, value in debugCountDict.items():
-            module = re.findall("^[A-Za-z-]+\/[a-z]+\/([a-z_0-9]+)", key)
             fileName = key[key.rfind("/") + 1:]
             loactionList = value[1]
             loactionInStrFormat = ','.join(str(e) for e in loactionList)
-            if value[0] > 0:
-                writer.writerow([key, module[0], fileName, loactionInStrFormat, value[0]])
+            writer.writerow([key, fileName, loactionInStrFormat, value[0]])
 
 
-dirName = 'numpy-production/numpy'
-getDebugLocAndCountForAllFiles()
-writeToCSV()
+dirName = 'numpy-git/numpy'
+
+
