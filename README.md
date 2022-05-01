@@ -7,10 +7,14 @@
 * Open 'coverage.json' file to view coverage data in JSON format
 
 ### Generate All Figures
-* Run script to generate Test Coverage on Command Line : "python gen-figures.py"
+* Run script to generate Test Coverage on Command Line : `python gen-figures.py`
 * The plots and figures are generated in figures folder.
 
 ### Data Folder
 * The data folder contains all the csv and json files of the tasks.
+
+### PyDriller
+* Run the PyDriller.py file,
+`python pydriller.py`
 
 
