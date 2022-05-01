@@ -1,13 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import AssertCount as ac
-import AssertLocAndCountInProduction as acp
-import DebugLocAndCountInProduction as dcp
 
 
 def generateAssertCountPlots():
-    ac.getAssertCountForAllFiles()
-    ac.writeToCSV()
     data = pd.read_csv('data/AssertCount.csv')
     numberOfTestFiles = len(data)
     numberOfAssertStatements = data['Assert Count'].sum()
@@ -38,22 +33,8 @@ def generateAssertCountPlots():
 
 
 def generateAssertCountInProductionPlots():
-    res = acp.getAssertLocAndCountForAllFiles()
-    acp.writeToCSV()
     data = pd.read_csv('data/AssertLocAndCountInProduction.csv')
     numberOfAssertStatementsInProd = data['Assert Count'].sum()
-    sorted_d = dict(sorted(res.items(), key=lambda x: x[1][0], reverse=True))
-    first3pairs = {k: sorted_d[k] for k in list(sorted_d)[:3]}
-    labels = list()
-    values = list()
-    for key, value in first3pairs.items():
-        labels.append(key[key.rfind("/") + 1:])
-        values.append(value[0])
-    plt.bar(labels, values, label="Total Asserts - " + str(numberOfAssertStatementsInProd))
-    plt.title("Assert Count of Top 3 Files In Producation Files")
-    plt.legend()
-    plt.savefig("figures/Top3AssertCounts-Production", dpi=300)
-    plt.close()
     return numberOfAssertStatementsInProd
 
 
@@ -98,8 +79,6 @@ def generatePlotsAuthorNames():
 
 
 def DebugPlot():
-    dcp.getDebugLocAndCountForAllFiles()
-    dcp.writeToCSV()
     data = pd.read_csv('data/DebugLocAndCountInProduction.csv')
     pythonData = data.loc[(data['File Name'].str.contains(".py"))]
     pythonDebugCount = pythonData['Debug Count'].sum()
@@ -115,6 +94,7 @@ def DebugPlot():
     plt.tight_layout()
     plt.savefig('figures/DebugInProdForEachLang')
     plt.close()
+
 
 def AssertCountInProdForLang():
     data = pd.read_csv('data/AssertLocAndCountInProduction.csv')
