@@ -66,3 +66,6 @@ def writeToCSV():
             loactionList = value[1]
             loactionInStrFormat = ','.join(str(e) for e in loactionList)
             writer.writerow([key, fileName, loactionInStrFormat, value[0]])
+
+getAssertLocAndCountForAllFiles()
+writeToCSV()

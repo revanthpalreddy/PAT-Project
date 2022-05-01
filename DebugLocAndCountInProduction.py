@@ -52,5 +52,5 @@ def writeToCSV():
 
 
 dirName = 'numpy-git/numpy'
-
-
+getDebugLocAndCountForAllFiles()
+writeToCSV()

@@ -79,4 +79,5 @@ def writeToCSV():
 
 
 dirName = 'numpy-git/numpy'
-
+getAssertCountForAllFiles()
+writeToCSV()
