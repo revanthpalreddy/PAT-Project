@@ -16,5 +16,5 @@
 ### PyDriller
 * Run the PyDriller.py file,
 `python pydriller.py`
-
-
+* All the data generated will be stored in the **Data** folder as csv files, 
+which will then be used to generate plots in **gen-figures.py**.
