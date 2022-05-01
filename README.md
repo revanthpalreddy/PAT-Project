@@ -11,6 +11,6 @@
 * The plots and figures are generated in figures folder.
 
 ### Data Folder
-* The data folder contains all the csv and json of the tasks.
+* The data folder contains all the csv and json files of the tasks.
 
 
