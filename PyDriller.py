@@ -4,22 +4,14 @@ import csv
 import pandas as pd
 from matplotlib import pyplot as plt
 
-# f = open("data/PyDriller.csv", "w")
-# f1 = open("data/PyDrillerCommitMessages.csv", "w")
-
-
 
 d = {}
 commitMessages = {}
 authorNames = {}
-# f.write("filepath, author_names, date_added, num_of_contributors, how_often_modified\n")
-# f1.write("code, number_of_occurences\n")
+
 
 for commit in Repository(path_to_repo='https://github.com/numpy/numpy').traverse_commits():
-    # f.write("-----------------------------------\n")
-    # changecount = 0
-    # f.write(commit.hash)
-    # f.write(commit.msg)
+
 
     if commit.author.name not in authorNames:
         authorNames[commit.author.name] = 1
@@ -72,19 +64,7 @@ for commit in Repository(path_to_repo='https://github.com/numpy/numpy').traverse
 
 
     for file in commit.modified_files:
-        # changecount += 1
-        # if file.new_path is not None:
-        #     s = file.new_path.split('/')
-        # else:
-        #     continue
-        # if len(s)>=3:
-        #     if s[2]=='tests':
-        #         f.write("%s, %s, %s\n" % (commit.author.name, file.new_path, commit.author_date))
-        # elif s[0]=='tests':
-        # # f.write(s)
-        #     f.write("%s, %s, %s\n" % (commit.author.name, file.new_path, commit.author_date))
-        # if file.filename.startswith('test'):
-        #     f.write("%s, %s, %s\n" % (commit.author.name, file.new_path, commit.author_date))
+      
 
         if file.filename.startswith('test'):
             if file.new_path not in d:
@@ -101,14 +81,13 @@ for commit in Repository(path_to_repo='https://github.com/numpy/numpy').traverse
 
 
 with open('data/PyDriller.csv', 'w') as csv_file:
-    # header1 = ['filepath', 'author_names', 'date_added', 'num_of_contributors', 'how_often_modified']
+    
     writer1 = csv.writer(csv_file)
     writer1.writerow(['filepath', 'author_names', 'date_added', 'num_of_contributors', 'how_often_modified'])
 
     for key in d:
         d[key][1] = d[key][1][0]
         StrListNames = ','.join(str(e) for e in d[key][0])
-        # f.write('{}, {}, {}, {}, {}\n'.format(key, StrListNames, d[key][1], d[key][2], d[key][3]))
         writer1.writerow([key, StrListNames, d[key][1], d[key][2], d[key][3]])
 
 with open('data/PyDrillerCommitMessages.csv', 'w') as csv_file:
